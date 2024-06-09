@@ -47,7 +47,3 @@ heading_anchors: true
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
-
-
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Eccentric-Anomalies/tungsten-moon-demo"
