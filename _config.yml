@@ -3,3 +3,21 @@ description: Home of the Tungsten Moon game
 theme: just-the-docs
 
 url: https://tungstenmoon.comm
+
+author:
+  name   : "Eric Dennison"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "I always wanted to be an astronaut, but this was the best I could do."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://netdenizen.org/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tiggerntatie"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Eccentric-Anomalies/tungsten-moon-demo"
