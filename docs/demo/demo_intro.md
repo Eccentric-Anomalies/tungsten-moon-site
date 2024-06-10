@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tungsten Moon Demo
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 # Tungsten Moon: The Demo
