@@ -13,4 +13,4 @@ Tungsten Moon will run in VR mode if a VR headset is detected. You can use full 
 
 ## Demo Version
 
-There is a [demo version of Tungsten Moon](https://github.com/Eccentric-Anomalies/Tungsten-Moon-Demo/releases) that you can download and try in Windows or Linux.
+There is a [demo version of Tungsten Moon](https://github.com/tiggerntatie/Tungsten-Moon-Demo-Releases/releases) that you can download and try in Windows or Linux.
