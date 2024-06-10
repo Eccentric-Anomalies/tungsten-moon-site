@@ -8,6 +8,17 @@ has_children: true
 
 The Tungsten Moon Demo includes the basic mechanics envisioned for any future Tungsten Moon game. It includes the minimum functionality and goals necessary to give new users an overvivew or impression of what the final game might look like.
 
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 ## Current Features
 * The custom sky shader includes a rotating field of 10,000 random stars, a sun, and a planet. All of these are in motion, relative to each other, at speeds and scales that are physically reasonable. This means that although they *appear* to be stationary, they are actually in full motion.
 * Star field brightness is automatically adjusted between barely visible and brilliant, depending on whether the sun or planet are visible in the sky.
