@@ -33,21 +33,35 @@ The Tungsten Moon Demo includes the basic mechanics envisioned for any future Tu
 * A horizontal drift indicator shows the cockpit-relative forward/backwards and left/right motion of the ship. This is derived from doppler radar data and will only operate below the 2000 meter radar altitude limit, and when the ship is within 45 degrees of horizontal. Three speed ranges, 1x, 10x, and 100x are selectable with buttons on the display.
 * To help with achieving orbit, apoapsis and periapsis altitudes are reported ("ORBITAL APSIDES" AA and PA, respectively) for the current spacecraft altitude and velocity vector.
 
+---
+
 ## Controls
 Some inputs perform an alternate function. Pressing the right shoulder button on the controller or the SHIFT key on the keyboard toggles the ALTERNATE control mode. There is also an in-cockpit UI button that you can activate with a mouse or VR controller.
+
+---
+
 ### Interior View
 * D-Pad (controller) or WASD (keyboard) control the view direction inside the cockpit. By toggling the ALTERNATE control, you can use these inputs to move your viewpoint forward/backward and left/right.
 * If you are using a mouse, hold the RMB (right mouse button) and move the mouse to pan your view. Note: the Steam Deck can be configured wi
+
+---
+
 ### Flight Controls
 * The right stick (controller) or direction keys (keyboard) control pitch and roll thrusters. 
 * The right left/right (controller) or left/right keys (keyboard) activate the yaw (rotate left/right) thrusters in ALTERNATE mode.
 * Keyboards that have a numeric keypad also work in the Orbiter style: pitch control with 8/2, roll with 4/6, and yaw with 1/3.
+
+---
+
 ### Main Thrust Control
 * The thrust control starts in "soft lock" mode. While locked, thrust can be increased or decreased with the left stick up/down (controller) or the Ctrl + PG-UP or Ctrl + PG-DN keys on a keyboard (or Ctrl + + or Ctrl + - on keypad)
 * The in-cockpit THROTTLE handle works with a mouse or VR hand controller.
 * On a game controller, thrust soft lock is toggled using the left shoulder button. The left trigger is used to manually control the thrust from zero to maximum. Once you have a thrust level you like, press the lock button again to hold that thrust.  
 * On a keyboard, PG-UP and PG-DN (keypad + or -) immediately set and hold full or zero thrust, respectively. You can then tweak the levels using the Ctrl + PG-UP and PG-DN keys.
 * The effect of your throttle input is displayed on the IMU accelerometer. The nominal gravitational acceleration on the surface of the moon is 1.6 m/s/s. If you hold the ship acceleration at 1.6 during flight, then you  will be assured of maintaining a constant velocity, relative to the surface (which could include *no* velocity). When the ship is flown at an angle, it will accelerate sideways under thrust, and slightly *more* than 1.6 m/s/s acceleration is required to maintain altitude.
+
+---
+
 ### Other Controls
 * Menu button or Q or ESC key will quit the program.
 * X button or X key will toggle attitude rate mode (ON by default). 
@@ -64,6 +78,8 @@ Some inputs perform an alternate function. Pressing the right shoulder button on
 -80 degrees longitude, -85 degrees latitude, 0 degrees heading
 These starting positions provide various combinations of sun and/or planet shine, or complete darkness. 
 
+---
+
 ## How to Get Started
 * Run the program.
 * Allow the spacecraft to settle onto the surface, or immediately press PG-UP to begin accelerating away from the surface.
@@ -72,8 +88,14 @@ These starting positions provide various combinations of sun and/or planet shine
 * Try lifting off, then landing softly back on the surface.
 * Try lifting off, then moving horizontally a few hundred meters, then landing softly on the surface with has little horizontal motion as possible.
 
+---
+
+
 ## Known Bugs
 * The landing logic occcasionally glitches when landing on the seam between scenery meshes (you fall through the ground). Just press R to start over.
+
+
+---
 
 ## Road Map
 * UI for save/load and different scenarios
