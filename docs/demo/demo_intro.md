@@ -53,6 +53,22 @@ Some inputs perform an alternate function. Pressing the right shoulder button on
 
 ---
 
+### Respawn Points
+The right-hand side of the cockpit has a small panel that you can use to view the available spawn points in the game. A valid spawn point is any **base** landing pad, with an identifier of the form `Pad n:0`, that you have already visited. When you play the game for the first time, Pads 0:0, 1:0, 2:0, 3:0, AND 4:0 in the "visited" state by default, and can be used as spawn points.
+
+In future versions of the game, some base pads will *not* be preset as "visited" and you will need to find them and visit them *yourself* before you can use them as spawn points.
+
+The spawn panel includes the following controls and displays:
+* Use the button labeled "NEXT BASE" to scroll through the list of available base pads.
+* The selected base pad is shown on a seven-segment display as `bb:nn`, where `bb` is the base group identifier (currently the values range from 0 to 4), and `nn` is the individual pad within the group (the base is always 0).
+* The number of pads in this base group that you have safely landed on is shown next.
+* The number of pads available for landing in the base group is shown last.
+* Use the button on the right, labeled "GOTO BASE" to immediately respawn at the selected base pad.
+
+Respawning resets the day/time clock to the day and time when the game was last (automatically) saved. With each session playing the game, the clock will continue to advance from the last save. This means that you will see each spawn point go through the full day/night cycle over a period of ten hours of playing time. With multiple days, you will also see the phases of the planet in the sky change as the Tungsten Moon orbits around it. You could even witness an eclipse of the sun, though the event is rare.
+
+---
+
 ### Main Thrust Control
 * The thrust control starts in "soft lock" mode. While locked, thrust can be increased or decreased with the left stick up/down (controller) or the Ctrl + PG-UP or Ctrl + PG-DN keys on a keyboard (or Ctrl + + or Ctrl + - on keypad)
 * The in-cockpit THROTTLE handle works with a mouse or VR hand controller.
@@ -71,7 +87,6 @@ Some inputs perform an alternate function. Pressing the right shoulder button on
 * Left stick PUSH (controller) or V key or LEFT VR controller A/X button will reset your view position.
 * There is an in-cockpit button to reset the attitude indicator. When the ship is stationary on the ground, the internal gyroscope and accelerometers can determine the rotation axis of the moon, and the ship's orientation with respect to the horizon; pressing reset will initialize the indicator to show true heading (0 degrees N, 90 degrees E, etc.) and tilt. When the ship is aloft, and **not** rotating, then the reset button will force the indicator to show heading of zero degrees and level horizon, regardless of the ship's actual position. This is because there are no external references (i.e. gps satellites or ground beacons) that can determine true orientation or position. Future versions of the game will probably incorporate additional navigational aids and attitude indicator modes.
 * The horizontal drift indicator has three ranges (1x, 10x, and 100x) selectable with "radio buttons".
-* Keyboard [ or ] keys or RIGHT VR controller B/Y button will select one of five different starting locations above the surface of the moon. Your selected location will be saved and will also become the startup location the next time you run the program. The locations are: +161 degrees longitude, 89.9 degrees latitude, 0 degrees heading
 -134 degrees longitude, +31 degrees latitude, 90 degrees heading
 +46 degrees longitude, -10 degrees latitude, 0 degrees heading
 1 degrees longitude, +85 degrees latitude, 180 degrees heading
@@ -98,8 +113,7 @@ These starting positions provide various combinations of sun and/or planet shine
 ---
 
 ## Road Map
-* UI for save/load and different scenarios
-* UI for graphics settings
+** UI for graphics settings
 * Automatic refueling on landing pads.
 * Richer objectives, challenges, achievements.
 * Limited resources, requiring resource gathering (survival mode).
