@@ -24,7 +24,7 @@ There is a [demo version of Tungsten Moon](https://github.com/Eccentric-Anomalie
 
 Manufactured by a little-known, defunct aerospace division of the old American car manufacturer, the AMC SkyDart is a single-seat utility/logistics spacecraft. With a delta-v capability of over 1400 m/s, the SkyDart can make point-to-point flights covering the entire surface of the tungsten moon.
 
-The SkyDart uses a pressure fed, variable throttle, N2O4/MMH hypergolic bipropellent engine, similar to the Space Shuttle OMS (orbital maneuvering system) engines, with a specific thrust of 300 seconds. Maximum thrust is 20 kN, and minimum thrust is 2 kN. Refueling can be automatically performed on the ground, at landing pads equipped with the necessary equipment.
+The SkyDart uses a pressure fed, variable throttle, $N_2O_4$/MMH hypergolic bipropellent engine, similar to the Space Shuttle OMS (orbital maneuvering system) engines, with a specific thrust of 300 seconds. Maximum thrust is 20 kN, and minimum thrust is 2 kN. Refueling can be automatically performed on the ground, at landing pads equipped with the necessary equipment.
 
 SkyDart carries a maximum total fuel load of 2500 kg, and has an empty weight of 2500 kg, which are roughly equivalent to the specs of the old Apollo lunar module ascent stage.
 
