@@ -19,21 +19,7 @@ The Tungsten Moon Demo includes the basic mechanics envisioned for any future Tu
 {:toc}
 </details>
 
-## Current Features
-* The custom sky shader includes a rotating field of 10,000 random stars, a sun, and a planet. All of these are in motion, relative to each other, at speeds and scales that are physically reasonable. This means that although they *appear* to be stationary, they are actually in full motion.
-* Star field brightness is automatically adjusted between barely visible and brilliant, depending on whether the sun or planet are visible in the sky.
-* The motion simulation accounts for the tungsten moon itself spinning on its axis. The current rotation period is ten hours. This should give rise to Coriolis effects if you know where to look, although this has not been carefully verified yet.
-* The input scheme supports not only keyboard and mouse, but also the Xbox, Playstation and Steam Deck controllers. All control keys have been assigned to make the experience of moving between keyboard and controller more intuitive. There is no user re-configuration possible yet.
-* The executable file currently works with the Valve Steam Deck, using the latest Proton emulation layer. The performance is excellent, though it runs hot.
-* There are five starting locations on the moon that you can choose from, with a very primitive UI. Each starting location consists of a set of four landing pads for a total of twenty in the game. Each pad has an identifier and location label, and directions and distance to several other pads.
-* Landing pads have a red flashing beacon that turns green once you have landed safely on them. Can you find and land on all twenty pads?
-* A "radar altimeter" mode activates below 2000 meters altitude and will read correctly down to the surface of the planet.
-* Velocity is reported as ground-relative horizontal and vertical components.
-* An attitude "nav ball" helps to orient the pilot.
-* A horizontal drift indicator shows the cockpit-relative forward/backwards and left/right motion of the ship. This is derived from doppler radar data and will only operate below the 2000 meter radar altitude limit, and when the ship is within 45 degrees of horizontal. Three speed ranges, 1x, 10x, and 100x are selectable with buttons on the display.
-* To help with achieving orbit, apoapsis and periapsis altitudes are reported ("ORBITAL APSIDES" AA and PA, respectively) for the current spacecraft altitude and velocity vector.
 
----
 
 ## Controls
 Some inputs perform an alternate function. Pressing the right shoulder button on the controller or the SHIFT key on the keyboard toggles the ALTERNATE control mode. There is also an in-cockpit UI button that you can activate with a mouse or VR controller.
@@ -42,7 +28,7 @@ Some inputs perform an alternate function. Pressing the right shoulder button on
 
 ### Interior View
 * D-Pad (controller) or WASD (keyboard) control the view direction inside the cockpit. By toggling the ALTERNATE control, you can use these inputs to move your viewpoint forward/backward and left/right.
-* If you are using a mouse, hold the RMB (right mouse button) and move the mouse to pan your view. Note: the Steam Deck can be configured wi
+* If you are using a mouse, hold the RMB (right mouse button) and move the mouse to pan your view. Note: the Steam Deck can be configured with the trackpad emulating a mouse with the RMB held down.
 
 ---
 
@@ -70,10 +56,10 @@ Respawning resets the day/time clock to the day and time when the game was last 
 ---
 
 ### Main Thrust Control
-* The thrust control starts in "soft lock" mode. While locked, thrust can be increased or decreased with the left stick up/down (controller) or the Ctrl + PG-UP or Ctrl + PG-DN keys on a keyboard (or Ctrl + + or Ctrl + - on keypad)
+* Thrust can be increased or decreased with the left stick up/down (controller) or the Ctrl + PG-UP or Ctrl + PG-DN keys on a keyboard (or Ctrl + + or Ctrl + - on keypad)
 * The in-cockpit THROTTLE handle works with a mouse or VR hand controller.
-* On a game controller, thrust soft lock is toggled using the left shoulder button. The left trigger is used to manually control the thrust from zero to maximum. Once you have a thrust level you like, press the lock button again to hold that thrust.  
-* On a keyboard, PG-UP and PG-DN (keypad + or -) immediately set and hold full or zero thrust, respectively. You can then tweak the levels using the Ctrl + PG-UP and PG-DN keys.
+* On a game controller, the left trigger is used to manually control the thrust from zero to maximum. This is useful for quick adjustments as you approach a landing.
+* On a keyboard, PG-UP and PG-DN (keypad + or -) immediately set and hold full or zero thrust.
 * The effect of your throttle input is displayed on the IMU accelerometer. The nominal gravitational acceleration on the surface of the moon is 1.6 m/s/s. If you hold the ship acceleration at 1.6 during flight, then you  will be assured of maintaining a constant velocity, relative to the surface (which could include *no* velocity). When the ship is flown at an angle, it will accelerate sideways under thrust, and slightly *more* than 1.6 m/s/s acceleration is required to maintain altitude.
 
 ---
@@ -82,16 +68,11 @@ Respawning resets the day/time clock to the day and time when the game was last 
 * Menu button or Q or ESC key will quit the program.
 * X button or X key will toggle attitude rate mode (ON by default). 
 * There is an in-cockpit landing light toggle switch. There is no controller button or keyboard key mapped to this switch.
-* There is an in-cockpit button for refilling the propellant tank. There is no controller button or key for this.
+* There is an in-cockpit button for refilling the propellant tank. There is no controller button or key for this. You can only refill the tank when you have landed on an official, round landing pad.
 * B controller button or R key or LEFT VR controller B/Y button will restart at your current scenario location.
 * Left stick PUSH (controller) or V key or LEFT VR controller A/X button will reset your view position.
 * There is an in-cockpit button to reset the attitude indicator. When the ship is stationary on the ground, the internal gyroscope and accelerometers can determine the rotation axis of the moon, and the ship's orientation with respect to the horizon; pressing reset will initialize the indicator to show true heading (0 degrees N, 90 degrees E, etc.) and tilt. When the ship is aloft, and **not** rotating, then the reset button will force the indicator to show heading of zero degrees and level horizon, regardless of the ship's actual position. This is because there are no external references (i.e. gps satellites or ground beacons) that can determine true orientation or position. Future versions of the game will probably incorporate additional navigational aids and attitude indicator modes.
-* The horizontal drift indicator has three ranges (1x, 10x, and 100x) selectable with "radio buttons".
--134 degrees longitude, +31 degrees latitude, 90 degrees heading
-+46 degrees longitude, -10 degrees latitude, 0 degrees heading
-1 degrees longitude, +85 degrees latitude, 180 degrees heading
--80 degrees longitude, -85 degrees latitude, 0 degrees heading
-These starting positions provide various combinations of sun and/or planet shine, or complete darkness. 
+* The horizontal drift indicator has three ranges (1x, 10x, and 100x) selectable with "radio buttons". They correspond to +/-1, +/-10, and +/-100 m/s speed, full scale.
 
 ---
 
@@ -103,8 +84,25 @@ These starting positions provide various combinations of sun and/or planet shine
 * Try lifting off, then landing softly back on the surface.
 * Try lifting off, then moving horizontally a few hundred meters, then landing softly on the surface with has little horizontal motion as possible.
 
+Check the [Tungsten Moon YouTube channel](https://www.youtube.com/channel/UCCZ3MdbmQ5ZqAspNrOZUuTw) for examples and more tips.
+
 ---
 
+## Current Features
+* The custom sky shader includes a rotating field of 10,000 random stars, a sun, and a planet. All of these are in motion, relative to each other, at speeds and scales that are physically reasonable. This means that although they *appear* to be stationary, they are actually in full motion.
+* Star field brightness is automatically adjusted between barely visible and brilliant, depending on whether the sun or planet are visible in the sky.
+* The motion simulation accounts for the tungsten moon itself spinning on its axis. The current rotation period is ten hours. This should give rise to Coriolis effects if you know where to look, although this has not been carefully verified yet.
+* The input scheme supports not only keyboard and mouse, but also the Xbox, Playstation and Steam Deck controllers. All control keys have been assigned to make the experience of moving between keyboard and controller more intuitive. There is no user re-configuration possible yet.
+* The executable file currently works with the Valve Steam Deck, using the latest Proton emulation layer. The performance is excellent, though it runs hot.
+* There are five starting locations on the moon that you can choose from, with a very primitive UI. Each starting location consists of a set of four landing pads for a total of twenty in the game. Each pad has an identifier and location label, and directions and distance to several other pads.
+* Landing pads have a red flashing beacon that turns green once you have landed safely on them. Can you find and land on all twenty pads?
+* A "radar altimeter" mode activates below 2000 meters altitude and will read correctly down to the surface of the planet.
+* Velocity is reported as ground-relative horizontal and vertical components.
+* An attitude "nav ball" helps to orient the pilot.
+* A horizontal drift indicator shows the cockpit-relative forward/backwards and left/right motion of the ship. This is derived from doppler radar data and will only operate below the 2000 meter radar altitude limit, and when the ship is within 45 degrees of horizontal. Three speed ranges, 1x, 10x, and 100x are selectable with buttons on the display.
+* To help with achieving orbit, apoapsis and periapsis altitudes are reported ("ORBITAL APSIDES" AA and PA, respectively) for the current spacecraft altitude and velocity vector.
+
+---
 
 ## Known Bugs
 * The landing logic occcasionally glitches when landing on the seam between scenery meshes (you fall through the ground). Just press R to start over.
@@ -113,8 +111,7 @@ These starting positions provide various combinations of sun and/or planet shine
 ---
 
 ## Road Map
-** UI for graphics settings
-* Automatic refueling on landing pads.
+* UI for graphics settings
 * Richer objectives, challenges, achievements.
 * Limited resources, requiring resource gathering (survival mode).
 * A story.
