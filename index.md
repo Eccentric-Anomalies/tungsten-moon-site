@@ -15,7 +15,7 @@ As a mission specialist, you were never trained to be a pilot. Learn to fly the 
 
 ## Demo Version
 
-There is a [demo version of Tungsten Moon](https://github.com/Eccentric-Anomalies/Tungsten-Moon-Demo-Releases/releases) that you can download and try in Windows (.exe) or Linux (.x86\_64). The demo does not include all the planned features of the game. Tungsten Moon will run in VR mode if a VR headset is detected. You can use full keyboard or XBOX/PS game controller inputs in either mode. Analog joysticks or other flight sim hardware can be configured in-game. VR hand controllers support grabbing handles and pushing buttons (Vive/Quest tested).
+There is a [demo version of Tungsten Moon](https://github.com/Eccentric-Anomalies/Tungsten-Moon-Demo-Releases/releases) that you can download and try in Windows (.exe) or Linux (.x86\_64). The demo does not include all the planned features of the game. Tungsten Moon will run in VR mode if a XR-compatible VR headset is detected. You can use full keyboard or XBOX/PS game controller inputs in either mode. Analog joysticks or other flight sim hardware can be configured in-game. VR hand controllers support grabbing handles and pushing buttons (Vive/Quest tested).
 
 ---
 
