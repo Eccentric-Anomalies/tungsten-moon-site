@@ -4,7 +4,7 @@ title: Tungsten Moon Demo
 nav_order: 2
 has_children: true
 ---
-# Tungsten Moon: The Demo
+# Tungsten Moon: The Demo (V0.1.6)
 
 The Tungsten Moon Demo includes the basic mechanics envisioned for any future Tungsten Moon game. It includes the minimum functionality and goals necessary to give new users an overvivew or impression of what the final game might look like.
 
@@ -35,6 +35,7 @@ Some inputs perform an alternate function. Pressing the right shoulder button on
 ### Flight Controls
 * The right stick (controller) or direction keys (keyboard) control pitch and roll thrusters. 
 * The right left/right (controller) or left/right keys (keyboard) activate the yaw (rotate left/right) thrusters in ALTERNATE mode.
+* The left stick x-axis (VR controller) controls the yaw thrusters. (V0.1.6)
 * Keyboards that have a numeric keypad also work in the Orbiter style: pitch control with 8/2, roll with 4/6, and yaw with 1/3.
 
 ---
@@ -56,17 +57,20 @@ Respawning resets the day/time clock to the day and time when the game was last 
 ---
 
 ### Main Thrust Control
-* Thrust can be increased or decreased with the left stick up/down (controller) or the Ctrl + PG-UP or Ctrl + PG-DN keys on a keyboard (or Ctrl + + or Ctrl + - on keypad)
-* The in-cockpit THROTTLE handle works with a mouse or VR hand controller.
+* The in-cockpit THROTTLE handle works with a mouse or VR hand controller. With a XBOX/PS game controller, the left trigger controls the THROTTLE.
 * On a game controller, the left trigger is used to manually control the thrust from zero to maximum. This is useful for quick adjustments as you approach a landing.
+* The VERNIER throttle lever is just to the right of the main THROTTLE control. Use this to make small, precise adjustments to the throttle setting. You can grab this with a mouse or VR hand controller. The VR/XBOX/PS game controller LEFT stick vertical axis, or keyboard Ctrl + PG-UP or Ctrl + PG-DN, or the keypad Ctrl+ or Ctrl- directly controls the vernier. To remap this input, select the THR + and THR - inputs on the UI mapping panel. (V0.1.6)
 * On a keyboard, PG-UP and PG-DN (keypad + or -) immediately set and hold full or zero thrust.
+* To configure an analog flightsim throttle, use the input mapping panel to map the THR A+ and THR A- to the throttle control's full and cut positions, respectively.
 * The effect of your throttle input is displayed on the IMU accelerometer. The nominal gravitational acceleration on the surface of the moon is 1.6 m/s/s. If you hold the ship acceleration at 1.6 during flight, then you  will be assured of maintaining a constant velocity, relative to the surface (which could include *no* velocity). When the ship is flown at an angle, it will accelerate sideways under thrust, and slightly *more* than 1.6 m/s/s acceleration is required to maintain altitude.
 
 ---
 
 ### Other Controls
 * Menu button or Q or ESC key will quit the program.
-* X button or X key will toggle attitude rate mode (ON by default). 
+* X button or X key will toggle attitude rate mode (ON by default).
+* Y button or Y key will toggle vertical speed mode (VSPEED). In this mode, the vernier throttle control adjusts the desired ascent/descent rate in m/s. (V0.1.6)
+* The ALARM button will light if there is any system failure, or the autopilot VSPEED mode is disengaged involuntarily. Press the ALARM to extinguish the button and silence any audible alarms. (V0.1.6)
 * There is an in-cockpit landing light toggle switch. There is no controller button or keyboard key mapped to this switch.
 * There is an in-cockpit button for refilling the propellant tank. There is no controller button or key for this. You can only refill the tank when you have landed on an official, round landing pad.
 * B controller button or R key or LEFT VR controller B/Y button will restart at your current scenario location.
