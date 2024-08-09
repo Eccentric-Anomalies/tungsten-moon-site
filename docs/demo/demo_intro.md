@@ -4,9 +4,9 @@ title: Tungsten Moon Demo
 nav_order: 2
 has_children: true
 ---
-# Tungsten Moon: The Demo (V0.1.6)
+# Tungsten Moon: The Demo (V0.1.8)
 
-The Tungsten Moon Demo includes the basic mechanics envisioned for any future Tungsten Moon game. It includes the minimum functionality and goals necessary to give new users an overvivew or impression of what the final game might look like.
+The Tungsten Moon Demo includes the basic flight mechanics of the full Tungsten Moon game, with a minimal set of exploration goals.
 
 {: .no_toc }
 
@@ -107,15 +107,3 @@ Check the [Tungsten Moon YouTube channel](https://www.youtube.com/channel/UCCZ3M
 * To help with achieving orbit, apoapsis and periapsis altitudes are reported ("ORBITAL APSIDES" AA and PA, respectively) for the current spacecraft altitude and velocity vector.
 
 ---
-
-## Known Bugs
-* The landing logic occcasionally glitches when landing on the seam between scenery meshes (you fall through the ground). Just press R to start over.
-
-
----
-
-## Road Map
-* UI for graphics settings
-* Richer objectives, challenges, achievements.
-* Limited resources, requiring resource gathering (survival mode).
-* A story.
