@@ -8,19 +8,6 @@ has_children: true
 
 The Tungsten Moon Demo includes the basic flight mechanics of the full Tungsten Moon game, with a minimal set of exploration goals.
 
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
-
-
-
 ## Controls
 Some inputs perform an alternate function. Pressing the right shoulder button on the controller or the SHIFT key on the keyboard toggles the ALTERNATE control mode. There is also an in-cockpit UI button that you can activate with a mouse or VR controller.
 
