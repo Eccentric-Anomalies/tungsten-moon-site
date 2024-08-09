@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Tungsten Moon Demo - Credits
-nav_order: 3
-has_children: false
+title: Credits
+parent: Tungsten Moon Demo
+nav_order: 10
 ---
 
 ## Credits
