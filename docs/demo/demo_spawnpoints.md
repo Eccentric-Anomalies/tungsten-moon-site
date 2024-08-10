@@ -30,7 +30,7 @@ On the surface of each pad is the direction (compass heading) and distance to a 
 
 You can keep track of your progress and respawn at one of the base pads using the respawn control panel:
 
-![Respawn control panel](/images/spawnpanel.png)
+![Image](/images/spawnpanel.png)
 
 Respawning resets the day/time clock to the day and time when the game was last (automatically) saved. With each session playing the game, the clock will continue to advance from the last save. This means that you will see each spawn point go through the full day/night cycle over a period of ten hours of playing time. With multiple days, you will also see the phases of the planet in the sky change as the Tungsten Moon orbits around it. You could even witness an eclipse of the sun, though the event is rare.
 
