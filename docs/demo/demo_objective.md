@@ -2,7 +2,7 @@
 layout: default
 title: Object of the Game
 parent: Tungsten Moon Demo
-nav_order: 3
+nav_order: 1
 ---
 
 ## Object of the Game
