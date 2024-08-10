@@ -31,8 +31,7 @@ Of the twenty landing pads in Tungsten Moon Demo, five are **base** pads, which 
 On the surface of each pad is the direction (compass heading) and distance to a "child" pad. The child will have directions to other children, and so on, up to a total of four pads (including the base). Each child pad has its own unique number, based on its base pad number, like this:
 
 | Base Pad | First Child | Second Child | Third Child |
-|----------|-------------|--------------|-------------|
-| 0:0 | 0:1 | 0:2 | 0:3 |
+|:--:|:--:|:--:|:--:|
 | 1:0 | 1:1 | 1:2 | 1:3 |
 | 2:0 | 2:1 | 2:2 | 2:3 |
 | 3:0 | 3:1 | 3:2 | 3:3 |
@@ -53,4 +52,4 @@ When you spawn at a new pad, the position of the moon, its planet, and the sun r
 
 ## Dying on Tungsten Moon
 
-In this demo version of Tungsten Moon, you can only die by crashing your Sky Dart. If that happens, you will instantly respawn at the last place you safely landed. The time and date and your fuel quantity will be restored to that moment in time, too. In the event you are in a precarious position, lost or just tired of being where you are, you can always use the [spawn control panel](#spawn-control-panel) to go somewhere else.
+In this demo version of Tungsten Moon, you can only die by crashing your Sky Dart. If that happens, you will instantly respawn at the last place you safely landed. The time and date and your fuel quantity will be restored to that moment in time. In the event you are in a precarious position, lost or just tired of being where you are, you can always use the [spawn control panel](#spawn-control-panel) to go somewhere else.
