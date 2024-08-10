@@ -2,7 +2,7 @@
 layout: default
 title: Spawn Points
 parent: Tungsten Moon Demo
-nav_order: 1
+nav_order: 2
 ---
 
 ## Spawn Points
@@ -32,6 +32,12 @@ You can keep track of your progress and respawn at one of the base pads using th
 
 ![Respawn control panel](/assets/images/demo/spawnpanel.png)
 
-Respawning resets the day/time clock to the day and time when the game was last (automatically) saved. With each session playing the game, the clock will continue to advance from the last save. This means that you will see each spawn point go through the full day/night cycle over a period of ten hours of playing time. With multiple days, you will also see the phases of the planet in the sky change as the Tungsten Moon orbits around it. You could even witness an eclipse of the sun, though the event is rare.
+* Press **NEXT BASE** to toggle through the different base pads.
+* Each base pad will show you how many pads (tasks) you have visited and the total available.
+* Select a base pad, then press **GOTO BASE** to spawn there.
 
----
+When you spawn at a new pad, the position of the moon, its planet, and the sun remain as they were, but *you* will be somewhere else on the moon. This means your next spawn point could be in near or total darkness! But as time advances and the moon rotates on its axis (once every ten hours), the sun will eventually rise everywhere. 
+
+## Dying on Tungsten Moon
+
+In this demo version of Tungsten Moon, you can only die by crashing your Sky Dart. If that happens, you will instantly respawn at the last place you safely landed. The time and date and your fuel quantity will be restored to that moment in time, too. In the event you are in a precarious position, lost or just tired of being where you are, you can always use the [spawn control panel](#spawn-control-panel) to go somewhere else.

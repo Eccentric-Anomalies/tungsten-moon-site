@@ -2,7 +2,7 @@
 layout: default
 title: How to Fly the Sky Dart
 parent: Tungsten Moon Demo
-nav_order: 2
+nav_order: 3
 ---
 
 ## How to Fly the Sky Dart
