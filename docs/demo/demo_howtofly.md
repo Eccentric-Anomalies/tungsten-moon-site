@@ -3,6 +3,7 @@ layout: default
 title: How to Fly the Sky Dart
 parent: Tungsten Moon Demo
 nav_order: 3
+usemathjax: true
 ---
 
 # How to Fly the Sky Dart
@@ -33,9 +34,9 @@ Width Overall
 : 8.8 m
 
 Mass
-: 2500 kg Empty
+: 2500 kg (empty)
 
-Fuel
+Fuel and Oxidizer Mass
 : 2500 kg
 
 MTOW
