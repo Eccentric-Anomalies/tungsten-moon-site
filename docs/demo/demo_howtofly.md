@@ -48,6 +48,26 @@ Maximum Landing Acceleration
 Maximum Landing Speed
 : 4.2 $\frac m s$ (empty) 2.6 $\frac m s$ (at MTOW)
 
+Minimum Main Engine Thrust
+: 2.0 kN
+
+Maximum Main Engine Thrust
+: 20.0 kN
+
+> Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero rotational velocity.
+
+## Overview
+
+The Sky Dart is a physically accurate simulation of a *sensible* fictionalized spacecraft. Although it has a throttle control and a joystick, it does not handle like a helicopter, and it definitely does not handle like an airplane!
+
+### Throttle
+
+The throttle control operates the main engine, which is located at the bottom of the spacecraft and exhausts downward. The thrust from the engine is directed upwards. Some simple rules to remember are:
+* When the thrust is equal to the weight of the ship, it will begin to hover. 
+* If the thrust is greater than the weight, the ship will begin to accelerate upwards. 
+* If the thrust is less than the weight and the ship is aloft, it will begin to accelerate downwards.
+
+> As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.
 
 ## How to Get Started
 * Run the program.
