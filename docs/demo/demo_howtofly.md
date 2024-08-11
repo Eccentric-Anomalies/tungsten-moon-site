@@ -38,8 +38,15 @@ Mass
 Fuel
 : 2500 kg
 
-Maximum Takeoff Weight
+MTOW
 : 6250 kg
+
+Maximum Landing Acceleration
+: 18 $/frac m {s^2}$ (empty) 7.2 $/frac m {s^2}$ (at MTOW)
+
+Maximum Landing Speed
+: 4.2 $/frac m s$ (empty) 2.6 $/frac m s$ (at MTOW)
+
 
 ## How to Get Started
 * Run the program.
