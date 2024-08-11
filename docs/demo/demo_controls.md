@@ -2,7 +2,7 @@
 layout: default
 title: Sky Dart Controls
 parent: Tungsten Moon Demo
-nav_order: 3
+nav_order: 4
 ---
 
 ## Sky Dart Controls

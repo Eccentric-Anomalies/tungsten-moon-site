@@ -44,8 +44,8 @@ You can keep track of your progress and respawn at one of the base pads using th
 
 ![Respawn control panel](/assets/images/demo/spawnpanel.png)
 
-* Press **NEXT BASE** to toggle through the different base pads.
-* Each base pad will show you how many pads (tasks) you have visited and the total available.
+* Press **NEXT BASE** to toggle through the different base pads (BASE ID).
+* Each base pad will show you how many pads (TASKS) you have visited and the total available.
 * Select a base pad, then press **GOTO BASE** to spawn there.
 
 When you spawn at a new pad, the position of the moon, its planet, and the sun remain as they were, but *you* will be somewhere else on the moon. This means your next spawn point could be in near or total darkness! But as time advances and the moon rotates on its axis (once every ten hours), the sun will eventually rise everywhere. 
