@@ -5,10 +5,41 @@ parent: Tungsten Moon Demo
 nav_order: 3
 ---
 
-## How to Fly the Sky Dart
-Tips for flying the spaceship.
+# How to Fly the Sky Dart
+Don't worry. It's only rocket science!
 
----
+{: .no_toc }
+
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+## The Sky Dart
+
+![AMC Sky Dart utility/logistics spacecraft](/assets/images/demo/skydart.svg)
+
+### Basic Specifications
+
+Height
+: Approximately 9.5 m
+
+Width Overall
+: 8.8 m
+
+Mass
+: 2500 kg Empty
+
+Fuel
+: 2500 kg
+
+Maximum Takeoff Weight
+: 6250 kg
 
 ## How to Get Started
 * Run the program.

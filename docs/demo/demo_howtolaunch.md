@@ -5,6 +5,8 @@ parent: Tungsten Moon Demo
 nav_order: 1
 ---
 
+# How to Download and Run Tungsten Moon Demo
+
 {: .no_toc }
 
 
@@ -25,7 +27,7 @@ Using your Steam account, search for Tungsten Moon in the Steam store, or visit 
 
 ### Steam Deck
 
-Tungsten Moon Demo is may be installed on your Steam Deck (Valve's hand-held gaming platform). Valve has not formally given Tungsten Moon a compatibility rating with Steam Deck, but we routinely use it as part of our development and testing process. Although the desktop version of Tungsten Moon uses a keyboard and/or mouse for some functionality, you can use the D-Pad view controls and the touchscreen to activate any in-cockpit UI elements using the Steam Deck, just as you would if you were using a mouse on desktop, or your virtual finger in VR.
+Tungsten Moon Demo may be installed on your Steam Deck (Valve's hand-held gaming platform). Valve has not formally given Tungsten Moon a compatibility rating with Steam Deck, but we routinely use it as part of our development and testing process. Although the desktop version of Tungsten Moon uses a keyboard and/or mouse for some functionality, you can use the D-Pad view controls and the touchscreen to activate any in-cockpit UI elements using the Steam Deck, just as you would if you were using a mouse on desktop, or your virtual finger in VR.
 
 ## Download Executables from Github (Almost Easy)
 
