@@ -25,7 +25,7 @@ Don't worry. It's only rocket science!
 
 ![AMC Sky Dart utility/logistics spacecraft](/assets/images/demo/skydart.svg)
 
-### Basic Specifications
+### Specifications
 
 Height
 : Approximately 9.5 m
@@ -43,10 +43,10 @@ MTOW
 : 6250 kg
 
 Maximum Landing Acceleration
-: 18 $/frac m {s^2}$ (empty) 7.2 $/frac m {s^2}$ (at MTOW)
+: 18 $\frac m {s^2}$ (empty) 7.2 $\frac m {s^2}$ (at MTOW)
 
 Maximum Landing Speed
-: 4.2 $/frac m s$ (empty) 2.6 $/frac m s$ (at MTOW)
+: 4.2 $\frac m s$ (empty) 2.6 $\frac m s$ (at MTOW)
 
 
 ## How to Get Started
