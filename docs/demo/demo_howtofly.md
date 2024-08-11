@@ -24,6 +24,7 @@ Don't worry. It's only rocket science!
 ## The Sky Dart
 
 ![AMC Sky Dart utility/logistics spacecraft](/assets/images/demo/skydart.svg)
+*The Sky Dart*
 
 ### Specifications
 
@@ -54,7 +55,7 @@ Minimum Main Engine Thrust
 Maximum Main Engine Thrust
 : 20.0 kN
 
-> Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero rotational velocity.
+> **Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero lateral or rotational velocity.**
 
 ## Overview
 
@@ -62,12 +63,23 @@ The Sky Dart is a physically accurate simulation of a *sensible* fictionalized s
 
 ### Throttle
 
-The throttle control operates the main engine, which is located at the bottom of the spacecraft and exhausts downward. The thrust from the engine is directed upwards. Some simple rules to remember are:
+The throttle control is a large T-handle control on the left side of the cockpit that operates the main engine. The engine is at the bottom of the spacecraft and exhausts downward. The thrust from the engine is directed upwards. Some simple rules to remember are:
 * When the thrust is equal to the weight of the ship, it will begin to hover. 
 * If the thrust is greater than the weight, the ship will begin to accelerate upwards. 
 * If the thrust is less than the weight and the ship is aloft, it will begin to accelerate downwards.
 
-> As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.
+> **As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.**
+
+![Sky Dart hovering with equal and opposite thrust and weight](/assets/images/demo/skydart_hover.svg)
+*Sky Dart hovers (or maintains constant acceleration) with equal and opposite thrust and weight*
+
+### Joystick
+
+Using only the throttle, you can go up (ascend) or down (descend), but there is no way to control your sideways motion. For this, use the joystick, located on the right-hand side of the cockpit. Moving the joystick does not *directly* move the ship sideways. Instead, it operates small rockets (called *attitude control thrusters*) on the side of the ship that make the ship rotate. For example, if you push the stick forward, it will make the ship rotate (or *pitch*) forward.
+
+![Sky Dart pitching forward using attitude control thrusters](/assets/images/demo/skydart_pitchforward.svg)
+*Sky Dart pitches forward using attitude control thrusters*
+
 
 ## How to Get Started
 * Run the program.
