@@ -80,13 +80,29 @@ Using only the throttle, you can go up (ascend) or down (descend), but there is 
 ![Sky Dart pitching forward using attitude control thrusters](/assets/images/demo/skydart_pitchforward.svg)
 *Sky Dart pitches forward using attitude control thrusters*
 
+When the ship is leaning forward, the main engine thrust and the weight are not balanced. Some of the thrust force is directed in the forward direction. A physicist would say that *the thrust vector now has a forward component*. The forward part of the thrust, though small, will make the ship accelerate in the forward direction. Its forward speed increases.
 
-## How to Get Started
-* Run the program.
-* Allow the spacecraft to settle onto the surface, or immediately press PG-UP to begin accelerating away from the surface.
-* Once off the ground, press SHIFT (ALTERNATE control mode toggle), then hold left-arrow or right-arrow to start rotating your craft. This will enable you to view the planet and/or sun in the sky (if present).
-* Press SHIFT (toggle back out of ALTERNATE control mode)l, then use the right stick (controller) or the arrow keys to pitch/roll into a sideways attitude so you can accelerate horizontally. If you can bring your horizontal speed up to 700 m/s you will enter orbit. Try to adjust A ALT. and P ALT. values to be between 3 and 10 km. Watch the moon roll by.. 
-* Try lifting off, then landing softly back on the surface.
-* Try lifting off, then moving horizontally a few hundred meters, then landing softly on the surface with has little horizontal motion as possible.
+![Sky Dart moving forward after pitching forwward](/assets/images/demo/skydart_moveforward.svg)
+*Sky Dart pitches forward using attitude control thrusters*
+
+Because the ship is leaning, the *vertical component* of the main engine thrust isn't as large as it used to be. If the ship was hovering before, it will begin to accelerate downward at the same time that it accelerates forward. Because of this, you have to increase the main thrust slightly to hold your hovering altitude while accelerating forward.
+
+> **Once your ship has the pitch or roll angle you want, you can let the joystick return to its centered position. The ship will automatically hold its pitch or roll angle until you change it.**
+
+### How to Yaw or Spin Left or Right
+
+With the joystick you can tip the ship forward or backward, and left or right, and any combination of those. Whatever direction you tip the ship, it will begin to accelerate in that direction. But neither of those motions lets you turn the ship to face a different direction. The left or right-ward spinning motion is called *yaw*. The joystick does not have a yaw function, but if you press the **ALT CTRL** button in front of you, then joystick left-right movement will give you left-right yawing motion. Press **ALT CTRL** again to return to the normal joystick movement.
+
+> **Yawing the ship does not by itself change its direction of motion. If your ship is moving forwards, and you yaw 90 degrees to the left, the ship will continue moving in its original direction. From your point of view, the ship will now be moving to the right!**
+
+
+## Next Steps
+
+These basic controls are enough to get you started with flying the Sky Dart. Starting at the default [spawn point](/demo/demo_spawnpoints.md), base pad 0:0, you should practice some basic maneuvers. For the following, keep an eye on your radar panel, which tells you your altitude above the ground (ALT), your vertical speed (VSPD) and horizontal speed (HSPD):
+
+![radar panel](/assets/images/demo/radarpanel.png)
+
+* Increase main thrust and try to hold a hover just above the pad. When you are ready to land, slightly decrease the main thrust until you touch down, then lower the thrust all the way.
+* Lift off from the pad again, then push the joystick forward until you are moving slowly forward (HSPD) at 1 or 2 m/s. Pull the joystick back briefly to keep the forward speed from increasing any further.
 
 Check the [Tungsten Moon YouTube channel](https://www.youtube.com/channel/UCCZ3MdbmQ5ZqAspNrOZUuTw) for examples and more tips.
