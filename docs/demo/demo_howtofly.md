@@ -98,7 +98,7 @@ With the joystick you can tip the ship forward or backward, and left or right, a
 
 ## Next Steps
 
-These basic controls are enough to get you started with flying the Sky Dart. Starting at the default [spawn point](/demo/demo_spawnpoints.md), base pad 0:0, you should practice some basic maneuvers. For the following, keep an eye on your radar panel, which tells you your altitude above the ground (ALT), your vertical speed (VSPD) and horizontal speed (HSPD):
+These basic controls are enough to get you started with flying the Sky Dart. Starting at the default [spawn point]({% link demo/demo_spawnpoints.md %}), base pad 0:0, you should practice some basic maneuvers. For the following, keep an eye on your radar panel, which tells you your altitude above the ground (ALT), your vertical speed (VSPD) and horizontal speed (HSPD):
 
 ![radar panel](/assets/images/demo/radarpanel.png){: width="150" }
 
