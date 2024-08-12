@@ -83,7 +83,7 @@ Using only the throttle, you can go up (ascend) or down (descend), but there is 
 When the ship is leaning forward, the main engine thrust and the weight are not balanced. Some of the thrust force is directed in the forward direction. A physicist would say that *the thrust vector now has a forward component*. The forward part of the thrust, though small, will make the ship accelerate in the forward direction. Its forward speed increases.
 
 ![Sky Dart moving forward after pitching forwward](/assets/images/demo/skydart_moveforward.svg)
-*Sky Dart pitches forward using attitude control thrusters*
+*Sky Dart accelerates forward because its thrust direction is partly forward*
 
 Because the ship is leaning, the *vertical component* of the main engine thrust isn't as large as it used to be. If the ship was hovering before, it will begin to accelerate downward at the same time that it accelerates forward. Because of this, you have to increase the main thrust slightly to hold your hovering altitude while accelerating forward.
 
@@ -100,7 +100,7 @@ With the joystick you can tip the ship forward or backward, and left or right, a
 
 These basic controls are enough to get you started with flying the Sky Dart. Starting at the default [spawn point](/demo/demo_spawnpoints.md), base pad 0:0, you should practice some basic maneuvers. For the following, keep an eye on your radar panel, which tells you your altitude above the ground (ALT), your vertical speed (VSPD) and horizontal speed (HSPD):
 
-![radar panel](/assets/images/demo/radarpanel.png)
+![radar panel](/assets/images/demo/radarpanel.png){: height="150" }
 
 * Increase main thrust and try to hold a hover just above the pad. When you are ready to land, slightly decrease the main thrust until you touch down, then lower the thrust all the way.
 * Lift off from the pad again, then push the joystick forward until you are moving slowly forward (HSPD) at 1 or 2 m/s. Pull the joystick back briefly to keep the forward speed from increasing any further.
