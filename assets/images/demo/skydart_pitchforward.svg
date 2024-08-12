@@ -133,7 +133,7 @@
          style="stop-color:#aa6f54;stop-opacity:1;"
          offset="0"
          id="stop30" /><stop
-         style="stop-color:#333333;stop-opacity:1"
+         style="stop-color:#333333;stop-opacity:0;"
          offset="1"
          id="stop31" /></linearGradient><linearGradient
        id="linearGradient28"
