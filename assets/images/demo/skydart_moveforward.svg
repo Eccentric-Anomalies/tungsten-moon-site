@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="cm"
      showguides="true"
-     inkscape:zoom="6.0907608"
-     inkscape:cx="274.18578"
-     inkscape:cy="172.80271"
+     inkscape:zoom="1.5226902"
+     inkscape:cx="285.6786"
+     inkscape:cy="211.7962"
      inkscape:window-width="2757"
      inkscape:window-height="1341"
      inkscape:window-x="2345"
@@ -38,7 +38,7 @@
        orientation="1,0"
        id="guide1"
        inkscape:locked="false" /><sodipodi:guide
-       position="71.067509,338.62796"
+       position="799.90004,338.3246"
        orientation="0,-1"
        id="guide2"
        inkscape:locked="false" /><sodipodi:guide
@@ -117,7 +117,7 @@
          style="stop-color:#aa6f54;stop-opacity:1;"
          offset="0"
          id="stop30" /><stop
-         style="stop-color:#333333;stop-opacity:1"
+         style="stop-color:#333333;stop-opacity:0;"
          offset="1"
          id="stop31" /></linearGradient><radialGradient
        inkscape:collect="always"

@@ -25,12 +25,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="cm"
      showguides="true"
-     inkscape:zoom="3.0453803"
-     inkscape:cx="465.62329"
-     inkscape:cy="237.24459"
+     inkscape:zoom="1.5226902"
+     inkscape:cx="455.77231"
+     inkscape:cy="131.01812"
      inkscape:window-width="2757"
      inkscape:window-height="1341"
-     inkscape:window-x="2353"
+     inkscape:window-x="2345"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"><sodipodi:guide
@@ -128,7 +128,7 @@
          style="stop-color:#aa6f54;stop-opacity:1;"
          offset="0"
          id="stop30" /><stop
-         style="stop-color:#333333;stop-opacity:1"
+         style="stop-color:#333333;stop-opacity:0;"
          offset="1"
          id="stop31" /></linearGradient><linearGradient
        id="linearGradient28"

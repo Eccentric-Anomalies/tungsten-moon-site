@@ -26,11 +26,11 @@
      inkscape:document-units="cm"
      showguides="true"
      inkscape:zoom="1.5226902"
-     inkscape:cx="142.8393"
+     inkscape:cx="143.16766"
      inkscape:cy="155.97395"
      inkscape:window-width="2757"
      inkscape:window-height="1341"
-     inkscape:window-x="2353"
+     inkscape:window-x="2345"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"><sodipodi:guide
@@ -133,7 +133,7 @@
          style="stop-color:#aa6f54;stop-opacity:1;"
          offset="0"
          id="stop30" /><stop
-         style="stop-color:#333333;stop-opacity:1"
+         style="stop-color:#333333;stop-opacity:0;"
          offset="1"
          id="stop31" /></linearGradient><linearGradient
        id="linearGradient28"
