@@ -271,13 +271,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-10.198973,-76.622696)"><rect
-       style="fill:url(#radialGradient31);stroke:none;stroke-width:7.97648;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+     transform="translate(-10.198973,-76.622696)"><path
        id="rect29"
-       width="710.50134"
-       height="139.77837"
-       x="6.9852524"
-       y="392.94458" /><text
+       style="fill:url(#radialGradient31);stroke-width:7.97648;stroke-linecap:round"
+       d="M 82.509479,392.94458 H 450.85324 l 0,93.8071 -370.313958,-0.65673 z"
+       sodipodi:nodetypes="ccccc" /><text
        xml:space="preserve"
        transform="translate(6.198973,38.622696)"
        id="text42"

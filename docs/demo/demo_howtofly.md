@@ -75,19 +75,25 @@ The throttle control is a large T-handle control on the left side of the cockpit
 
 ### Joystick
 
-Using only the throttle, you can go up (ascend) or down (descend), but there is no way to control your sideways motion. For this, use the joystick, located on the right-hand side of the cockpit. Moving the joystick does not *directly* move the ship sideways. Instead, it operates small rockets (called *attitude control thrusters*) on the side of the ship that make the ship rotate. For example, if you push the stick forward, it will make the ship rotate (or *pitch*) forward.
+Using only the throttle, you can go up (ascend) or down (descend), but there is no way to control your sideways motion. For this, use the joystick. Moving the joystick does not *directly* move the ship sideways. Instead, it operates small rockets (called *attitude control thrusters*) on the side of the ship that make the ship rotate. For example, if you push the stick forward, it will make the ship rotate (or *pitch*) forward.
 
 ![Sky Dart pitching forward using attitude control thrusters](/assets/images/demo/skydart_pitchforward.svg)
 *Sky Dart pitches forward using attitude control thrusters*
 
 When the ship is leaning forward, the main engine thrust and the weight are not balanced. Some of the thrust force is directed in the forward direction. A physicist would say that *the thrust vector now has a forward component*. The forward part of the thrust, though small, will make the ship accelerate in the forward direction. Its forward speed increases.
 
-![Sky Dart moving forward after pitching forwward](/assets/images/demo/skydart_moveforward.svg)
+![Sky Dart moving forward after pitching forward](/assets/images/demo/skydart_moveforward.svg)
 *Sky Dart accelerates forward because its thrust direction is partly forward*
 
 Because the ship is leaning, the *vertical component* of the main engine thrust isn't as large as it used to be. If the ship was hovering before, it will begin to accelerate downward at the same time that it accelerates forward. Because of this, you have to increase the main thrust slightly to hold your hovering altitude while accelerating forward.
 
 > **Once your ship has the pitch or roll angle you want, you can let the joystick return to its centered position. The ship will automatically hold its pitch or roll angle until you change it.**
+
+### Getting From Point A to Point B
+
+All of these ideas come together whn you try to fly from one place to another, and land safely:
+
+![Sky Dart moving from point A to point B](/assets/images/demo/skydart_pointatob.svg)
 
 ### How to Yaw or Spin Left or Right
 
@@ -95,14 +101,3 @@ With the joystick you can tip the ship forward or backward, and left or right, a
 
 > **Yawing the ship does not by itself change its direction of motion. If your ship is moving forwards, and you yaw 90 degrees to the left, the ship will continue moving in its original direction. From your point of view, the ship will now be moving to the right!**
 
-
-## Next Steps
-
-These basic controls are enough to get you started with flying the Sky Dart. Starting at the default [spawn point]({% link docs/demo/demo_spawnpoints.md %}), base pad 0:0, you should practice some basic maneuvers. For the following, keep an eye on your radar panel, which tells you your altitude above the ground (ALT), your vertical speed (VSPD) and horizontal speed (HSPD):
-
-![radar panel](/assets/images/demo/radarpanel.png){: width="150" }
-
-* Increase main thrust and try to hold a hover just above the pad. When you are ready to land, slightly decrease the main thrust until you touch down, then lower the thrust all the way.
-* Lift off from the pad again, then push the joystick forward until you are moving slowly forward (HSPD) at 1 or 2 m/s. Pull the joystick back briefly to keep the forward speed from increasing any further.
-
-Check the [Tungsten Moon YouTube channel](https://www.youtube.com/channel/UCCZ3MdbmQ5ZqAspNrOZUuTw) for examples and more tips.
