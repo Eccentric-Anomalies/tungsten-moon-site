@@ -89,7 +89,7 @@ Because the ship is leaning, the *vertical component* of the main engine thrust 
 
 > **Once your ship has the pitch or roll angle you want, you can let the joystick return to its centered position. The ship will automatically hold its pitch or roll angle until you change it.**
 
-### Getting From Point A to Point B
+### Going To Point B From Point A
 
 All of these ideas come together when you try to fly from one place to another, and land safely:
 
