@@ -48,7 +48,7 @@ heading_anchors: true
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
 
-callouts_level: quiet # or loud
+callouts_level: loud # or quiet
 callouts:
   highlight:
     color: yellow
