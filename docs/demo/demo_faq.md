@@ -2,7 +2,7 @@
 layout: default
 title: Frequently Asked Questions (FAQ)
 parent: Tungsten Moon Demo
-nav_order: 5
+nav_order: 6
 ---
 
 ## Frequently Asked Questions
