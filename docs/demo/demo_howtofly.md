@@ -55,7 +55,8 @@ Minimum Main Engine Thrust
 Maximum Main Engine Thrust
 : 20.0 kN
 
-> **Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero lateral or rotational velocity.**
+{: .note }
+> Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero lateral or rotational velocity.
 
 ## Overview
 
@@ -68,7 +69,8 @@ The throttle control is a large T-handle control on the left side of the cockpit
 * If the thrust is greater than the weight, the ship will begin to accelerate upwards. 
 * If the thrust is less than the weight and the ship is aloft, it will begin to accelerate downwards.
 
-> **As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.**
+{: .note }
+> As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.
 
 ![Sky Dart hovering with equal and opposite thrust and weight](/assets/images/demo/skydart_hover.svg)
 *Sky Dart hovers (or maintains constant acceleration) with equal and opposite thrust and weight*
@@ -87,7 +89,8 @@ When the ship is leaning forward, the main engine thrust and the weight are not 
 
 Because the ship is leaning, the *vertical component* of the main engine thrust isn't as large as it used to be. If the ship was hovering before, it will begin to accelerate downward at the same time that it accelerates forward. Because of this, you have to increase the main thrust slightly to hold your hovering altitude while accelerating forward.
 
-> **Once your ship has the pitch or roll angle you want, you can let the joystick return to its centered position. The ship will automatically hold its pitch or roll angle until you change it.**
+{: .note }
+> Once your ship has the pitch or roll angle you want, you can let the joystick return to its centered position. The ship will automatically hold its pitch or roll angle until you change it.
 
 ### Going To Point B From Point A
 
@@ -111,4 +114,5 @@ When you are in mountainous terrain, or at night, it's hard to tell exactly how 
 
 With the joystick you can tip the ship forward or backward, and left or right, and any combination of those. Whatever direction you tip the ship, it will begin to accelerate in that direction. But neither of those motions lets you turn the ship to face a different direction. The left or right-ward spinning motion is called *yaw*. The joystick does not have a yaw function, but if you press the **ALT CTRL** button in front of you, then joystick left-right movement will give you left-right yawing motion. Press **ALT CTRL** again to return to the normal joystick movement.
 
-> **Yawing the ship does not by itself change its direction of motion. If your ship is moving forwards, and you yaw 90 degrees to the left, the ship will continue moving in its original direction. From your point of view, the ship will now be moving to the right!**
+{: .note }
+> Yawing the ship does not by itself change its direction of motion. If your ship is moving forwards, and you yaw 90 degrees to the left, the ship will continue moving in its original direction. From your point of view, the ship will now be moving to the right!
