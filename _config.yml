@@ -49,6 +49,7 @@ heading_anchors: true
 color_scheme: dark
 
 callouts_level: loud # or quiet
+
 callouts:
   highlight:
     color: yellow
