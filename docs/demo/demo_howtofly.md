@@ -91,13 +91,24 @@ Because the ship is leaning, the *vertical component* of the main engine thrust 
 
 ### Getting From Point A to Point B
 
-All of these ideas come together whn you try to fly from one place to another, and land safely:
+All of these ideas come together when you try to fly from one place to another, and land safely:
 
 ![Sky Dart moving from point A to point B](/assets/images/demo/skydart_pointatob.svg)
+
+### Basic Instruments
+
+While you are flying, you can judge your altitude, orientation, and velocity by looking out the window, but you will do better if you use the instruments in the cockpit. The radar panel shows your height above the ground (ALT) in meters, vertical speed (VSPD) and horizontal speed (HSPD) in meters/second.
+
+The "cross pointer" display also shows your horizontal speed as a sideways (left to right) and forward (and backward) component using the two orange needles. 
+
+![radar panel](/assets/images/demo/radarpanel.png){: width="150" }
+
+When you are in mountainous terrain, or at night, it's hard to tell exactly how much your ship is tipped, relative to the horizon. Use the *artificial horizon* display to judge your pitch or banking angle.
+
+![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="150" }
 
 ### How to Yaw or Spin Left or Right
 
 With the joystick you can tip the ship forward or backward, and left or right, and any combination of those. Whatever direction you tip the ship, it will begin to accelerate in that direction. But neither of those motions lets you turn the ship to face a different direction. The left or right-ward spinning motion is called *yaw*. The joystick does not have a yaw function, but if you press the **ALT CTRL** button in front of you, then joystick left-right movement will give you left-right yawing motion. Press **ALT CTRL** again to return to the normal joystick movement.
 
 > **Yawing the ship does not by itself change its direction of motion. If your ship is moving forwards, and you yaw 90 degrees to the left, the ship will continue moving in its original direction. From your point of view, the ship will now be moving to the right!**
-
