@@ -40,7 +40,7 @@ Like many small aircraft, the Sky Dart has a basic autopilot control panel just 
 The following sections cover each mode in more detail.
 
 ## RATE MODE
-By default, when the Sky Dart is powered up, the autopilot is has RATE MODE active. With RATE MODE off, the joystick directly operates the attitude control thrusters. The ship is very difficult to control RATE MODE off, and the only time it should be deactivated is if there is a fault in the autopilot.
+When the Sky Dart is powered up, the autopilot has RATE MODE active by default. With RATE MODE off, the joystick directly operates the attitude control thrusters. The ship is very difficult to control RATE MODE off, and the only time it should be deactivated is if there is a fault in the autopilot.
 
 ### RATE MODE ON
 ![AMC Sky Dart autopilot RATE MODE ON](/assets/images/demo/skydart_ratemode.svg)
