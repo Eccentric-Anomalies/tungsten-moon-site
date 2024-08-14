@@ -27,14 +27,15 @@ Like many small aircraft, the Sky Dart has a basic autopilot control panel just 
 ![AMC Sky Dart autopilot control panel](/assets/images/demo/autopilot_panel.png)
 *The Sky Dart autopilot control panel*
 
-### Functions In A Nutshell
+### Autopilot Functions In A Nutshell
 
 | Autopilot Mode | When Activated | When Deactivated |
 |:--:|:--:|:--:|
 | RATE MODE | joystick commands a rotation **rate**  | joystick commands a rotation **acceleration** and deactivates HOVR MODE  |
 | HOVR MODE | ship holds current **vertical rate** *and* activates HSPD MODE  | deactivates HSPD MODE |
 | HSPD MODE | ship holds current **horizontal rates** and deactivates PROP CTRL | deactivates PROP CTRL |
-| PROP CTRL | joystick commands horizontal rates | joystick commands **change** in horizontal rates | 
+| X10 | HSPD joystick inputs are $\pm$ 10 $\frac m s$ or $\frac m {s^2}$| HSPD joystick inputs are $\pm$ 1 $\frac m s$ or $\frac m {s^2}$ | 
+| PROP CTRL | joystick commands horizontal rates in $\frac m s$| joystick commands **change** in horizontal rates in $\frac m {s^2}$ | 
 
 The following sections cover each mode in more detail.
 
