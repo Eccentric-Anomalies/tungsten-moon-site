@@ -57,6 +57,9 @@ Hover mode commands the joystick and throttle to zero out any *acceleration* of 
 
 ![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/demo/hspd_stablerate.png){: width="200" }
 
+{: .note }
+Vertical speed and altitude in HOVR mode are always computed relative to the local terrain and are subject to the maximum range of the radar system (2000 m) and a bank or pitch angle of 45 degrees.
+
 ### Typical Transition from HOVR OFF to HOVR ON
 The following diagram shows how the ship's dynamic state changes when HOVR mode is engaged.
 
@@ -80,6 +83,9 @@ The following graphic shows an example of using HSPD mode to slow the horizontal
 
 ![AMC Sky Dart autopilot HSPD MODE changing forward speed](/assets/images/demo/skydart_hspdchange.svg)
 
+{: .warning }
+Although there is no speed limit for horizontal flight in HSPD mode, flying over rough terrain at high speeds will cause the autopilot system to disengage without warning if it is unable to compensate for rapidly changing height above ground level.
+
 ## X10
 Turning X10 on when HSPD mode is on increases the joystick sensitivity by a factor of 10. In [PROP CTRL](#prop-ctrl-proportional-control) mode, it changes the full scale joystick deflection from 1 $\frac m s$ to 10 $\frac m s$.
 
@@ -90,3 +96,11 @@ When PROP CTRL and X10 are both active, full deflection of the joystick will com
 
 ### Landing With PROP CTRL
 One of the best uses of PROP CTRL is during the final approach to a landing pad. The final approach should be at a low (1-2 $\frac m s$) vertical and horizontal speed. Once the ship is over the center of the pad, engage PROP CTRL to arrest all forward motion; the ship will then descend straight down until contacting the pad or terrain.
+
+## Autopilot Failures and the WARN Lamp
+If the autopilot experiences flight conditions (such as high speed flight over rough terrain) that it can't manage, it will automatically disengage HOVR mode (and by extension, HSPD and PROP modes). In this event, the WARN button on the autopilot panel will illuminate, and a loud audible alarm will sound in the cockpit. Pressing the WARN button silences the audible alert. Pressing WARN when it isn't active will activate the audible alarm (serving as a test of the system). Press the button a second time to silence it.
+
+When the autopilot disengages, the throttle remains in whatever position it had when the failure occurred. The RATE MODE will remain engaged, and the ship will stop rotating. Your first priority in this event is to assess the situation and try to restore controlled flight manually. If you were moving with a high horizontal speed, try to slow the speed manually before attempting to engage HOVR mode again.
+
+{: .note }
+The three priorities of any pilot are always **aviate**, **navigate**, and **communicate**. Don't worry about silencing the alarm until you are in control of your spaceship (always prioritize **aviate**!).
