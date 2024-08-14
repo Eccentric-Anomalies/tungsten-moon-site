@@ -46,7 +46,7 @@ When the Sky Dart is powered up, the autopilot has RATE MODE active by default. 
 ![AMC Sky Dart autopilot RATE MODE ON](/assets/images/demo/skydart_ratemode.svg)
 
 {: .note }
-With RATE MODE ON, any rotational motion of the ship can be stopped simply by letting go of the joystick.
+With only RATE MODE ON, any rotational motion of the ship can be stopped simply by letting go of the joystick.
 
 ### RATE MODE OFF
 ![AMC Sky Dart autopilot RATE MODE ON](/assets/images/demo/skydart_noratemode.svg)
@@ -55,7 +55,7 @@ With RATE MODE ON, any rotational motion of the ship can be stopped simply by le
 ## HOVR (Hover) MODE
 Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown the two green diamond "bugs" on the cross-pointer display:
 
-![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/demo/hspd_stablerate.png){: width="150" }
+![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/demo/hspd_stablerate.png){: width="200" }
 
 ### Typical Transition from HOVR OFF to HOVR ON
 The following diagram shows how the ship's dynamic state changes when HOVR mode is engaged.
