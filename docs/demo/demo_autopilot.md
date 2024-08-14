@@ -100,7 +100,7 @@ One of the best uses of PROP CTRL is during the final approach to a landing pad.
 ## Autopilot Failures and the WARN Lamp
 If the autopilot experiences flight conditions (such as high speed flight over rough terrain) that it can't manage, it will automatically disengage HOVR mode (and by extension, HSPD and PROP modes). In this event, the WARN button on the autopilot panel will illuminate, and a loud audible alarm will sound in the cockpit. Pressing the WARN button silences the audible alert. Pressing WARN when it isn't active will activate the audible alarm (serving as a test of the system). Press the button a second time to silence it.
 
-When the autopilot disengages, the throttle remains in whatever position it had when the failure occurred. The RATE MODE will remain engaged, and the ship will stop rotating. Your first priority in this event is to assess the situation and try to restore controlled flight manually. If you were moving with a high horizontal speed, try to slow the speed manually before attempting to engage HOVR mode again.
+When the autopilot disengages, the throttle remains in whatever position it was in when the failure occurred. The RATE MODE will remain engaged, and the ship will stop rotating. Your first priority in this event is to assess the situation and try to restore controlled flight manually. If you were moving with a high horizontal speed, try to slow the speed manually before attempting to engage HOVR mode again.
 
 {: .note }
 The three priorities of any pilot are always **aviate**, **navigate**, and **communicate**. Don't worry about silencing the alarm until you are in control of your spaceship (always prioritize **aviate**!).
