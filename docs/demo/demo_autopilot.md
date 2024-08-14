@@ -55,19 +55,16 @@ With RATE MODE ON, any rotational motion of the ship can be stopped simply by le
 ## HOVR (Hover) MODE
 Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown the two green diamond indicators on the cross-pointer display:
 
-![AMC Sky Dart autopilot cross-pointer horizontal velocity diamonds](/assets/images/demo/hspd_stablerate.png)
-*The Sky Dart autopilot control panel*
+![AMC Sky Dart autopilot cross-pointer horizontal velocity diamonds](/assets/images/demo/hspd_stablerate.png){: width="150" }
 
 ### Typical Transition from HOVR OFF to HOVR ON
 The following diagram shows how the ship's dynamic state changes when HOVR mode is engaged.
 ![AMC Sky Dart autopilot HOVR MODE ON](/assets/images/demo/skydart_hovrmode.svg)
 
-Engaging HOVR mode *captures* the current vertical and horizontal velocity of the ship, then tries to maintain it. Once engaged, you can change the captured velocities using the vernier throttle knob and the joystick.
+Engaging HOVR mode *captures* the current vertical and horizontal velocity of the ship, then tries to maintain it. Once engaged, you can change the captured velocities using the round vernier throttle knob and the joystick.
 
 ### Changing Vertical Speed While HOVR MODE is Engaged
-While HOVR MODE is ON, use the Vernier Throttle to adjust the vertical speed. The vernier throttle is the round knob that extends to the right of the throttle control:
-
-If you adjust the vertical speed to be ZERO, then the autopilot will also capture the altitude above terrain, and will continue to make adjustments to hold the captured altitude.
+While HOVR MODE is ON, use the Vernier Throttle to adjust the vertical speed. If you adjust the vertical speed to be ZERO, then the autopilot will also capture the altitude above terrain, and will continue to make adjustments to hold the captured altitude.
 
 ## HSPD (Horizontal Speed) MODE
 
