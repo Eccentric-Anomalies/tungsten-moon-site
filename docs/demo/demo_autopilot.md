@@ -35,7 +35,7 @@ Like many small aircraft, the Sky Dart has a basic autopilot control panel just 
 | HOVR MODE | ship holds current **vertical rate** *and* activates HSPD MODE  | deactivates HSPD MODE |
 | HSPD MODE | ship holds current **horizontal rates** and deactivates PROP CTRL | deactivates PROP CTRL |
 | X10 | HSPD joystick inputs are $\pm$ 10 $\frac m s$ or $\frac m {s^2}$| HSPD joystick inputs are $\pm$ 1 $\frac m s$ or $\frac m {s^2}$ | 
-| PROP CTRL | joystick commands horizontal rates in $\frac m s$| joystick commands **change** in horizontal rates in $\frac m {s^2}$ | 
+| PROP CTRL | joystick: horizontal rates in $\frac m s$| joystick: **change** in horizontal rates in $\frac m {s^2}$ | 
 
 The following sections cover each mode in more detail.
 
