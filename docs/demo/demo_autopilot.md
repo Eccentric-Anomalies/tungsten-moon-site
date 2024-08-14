@@ -53,25 +53,35 @@ With RATE MODE ON, any rotational motion of the ship can be stopped simply by le
 
 
 ## HOVR (Hover) MODE
-Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown the two green diamond indicators on the cross-pointer display:
+Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown the two green diamond "bugs" on the cross-pointer display:
 
-![AMC Sky Dart autopilot cross-pointer horizontal velocity diamonds](/assets/images/demo/hspd_stablerate.png){: width="150" }
+![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/demo/hspd_stablerate.png){: width="150" }
 
 ### Typical Transition from HOVR OFF to HOVR ON
 The following diagram shows how the ship's dynamic state changes when HOVR mode is engaged.
 
 ![AMC Sky Dart autopilot HOVR MODE ON](/assets/images/demo/skydart_hovrmode.svg)
 
-Engaging HOVR mode *captures* the current vertical and horizontal velocity of the ship, then tries to maintain it. Once engaged, you can change the captured velocities using the round vernier throttle knob and the joystick.
+Engaging HOVR mode *captures* the current vertical and horizontal speeds of the ship, then tries to maintain them. Once engaged, you can change the captured speeds using the round vernier throttle knob and the joystick.
 
 ### Changing Vertical Speed While HOVR MODE is Engaged
-While HOVR MODE is ON, use the Vernier Throttle to adjust the vertical speed. If you adjust the vertical speed to be ZERO, then the autopilot will also capture the altitude above terrain, and will continue to make adjustments to hold the captured altitude.
+While HOVR MODE is ON, use the vernier throttle to adjust the vertical speed. If you adjust the vertical speed to be ZERO, then the autopilot will also capture the altitude above terrain, and will continue to make adjustments to hold the captured altitude.
 
 The following graphic shows an example of using HOVR mode to slow descent and hold a true hover at 308 m above the surface.
 
 ![AMC Sky Dart autopilot HOVR MODE slowing descent](/assets/images/demo/skydart_hovrzerorate.svg)
 
-
 ## HSPD (Horizontal Speed) MODE
+Engaging HOVR mode automatically engages HSPD mode and captures your current horizontal speed. When HSPD is engaged, disengage it again by pressing the **HSPD MODE** button; HOVR mode will not be affected. Regardless of the HSPD mode, disengaging HOVR will force HSPD OFF. In other words, HSPD requires the vertical speed to be controlled by autopilot at all times.
+
+While HSPD mode is ON, the joystick moves the horizontal speed setpoint, shown by the position of the two green diamond speed bugs on the cross-pointer display. If PROP CTRL is OFF, then the position of the joystick corresponds to the rate at which the speed bugs move. If you release the joystick, the setpoint stays where it is. If you push the joystick fully forward, the forward speed setpoint will increase at a constant rate. If you release the joystick again, the setpoint will freeze at its current position.
+
+The following graphic shows an example of using HSPD mode to slow the horizontal speed from 8 $\frac m s$ to 4 $\frac m s$:
+
+![AMC Sky Dart autopilot HSPD MODE changing forward speed](/assets/images/demo/skydart_hspdchange.svg)
+
+
+## X10
+
 
 ## PROP CTRL (Proportional Control)
