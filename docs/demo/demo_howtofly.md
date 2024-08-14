@@ -56,7 +56,7 @@ Maximum Main Engine Thrust
 : 20.0 kN
 
 {: .note }
-> Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero lateral or rotational velocity.
+Maximum landing specifications assume simultaneous touchdown of all landing feet, and zero lateral or rotational velocity.
 
 ## Overview
 
