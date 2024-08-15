@@ -135,12 +135,12 @@
    inkscape:deskcolor="#d1d1d1"
    showguides="true"
    inkscape:zoom="1.1518344"
-   inkscape:cx="545.65135"
-   inkscape:cy="336.41989"
-   inkscape:window-width="2558"
-   inkscape:window-height="1341"
-   inkscape:window-x="-8"
-   inkscape:window-y="0"
+   inkscape:cx="455.3606"
+   inkscape:cy="335.9858"
+   inkscape:window-width="2096"
+   inkscape:window-height="1250"
+   inkscape:window-x="2659"
+   inkscape:window-y="130"
    inkscape:window-maximized="0"
    inkscape:current-layer="svg491"
    inkscape:document-units="in"><sodipodi:guide
@@ -185,7 +185,8 @@
 	.st7{fill:#FFFFFF;}
 </style>
 <g
-   id="Layer_1">
+   id="Layer_1"
+   transform="matrix(0.99971325,0,0,1.8264619,0.17577978,-0.23759456)">
 	<path
    class="st0"
    d="m 6.5,0.5 h 1213 c 3.3,0 6,2.7 6,6 v 336 c 0,3.3 -2.7,6 -6,6 H 6.5 c -3.3,0 -6,-2.7 -6,-6 V 6.5 c 0,-3.3 2.7,-6 6,-6 z"
