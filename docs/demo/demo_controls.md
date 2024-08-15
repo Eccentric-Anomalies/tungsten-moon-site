@@ -5,10 +5,25 @@ parent: Tungsten Moon Demo
 nav_order: 5
 ---
 
-## Sky Dart Controls
-Some inputs perform an alternate function. Pressing the right shoulder button on the controller or the SHIFT key on the keyboard toggles the ALTERNATE control mode. There is also an in-cockpit UI button that you can activate with a mouse or VR controller.
+# Sky Dart Controls
+You can fly the Sky Dart with a keyboard and mouse, using an optional game controller (e.g. XBOX), with PC flight simulator joysticks (e.g. HOTAS), or with an OpenXR-compatible VR headset and hand-controllers. 
+{: .no_toc }
 
----
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+## Default Keyboard Map
+![AMC Sky Dart default keyboard map](/assets/images/demo/keyboard-map.svg)
+
+## Default Game Controller Map (and Steam Deck)
+
 
 ### Interior View
 * D-Pad (controller) or WASD (keyboard) control the view direction inside the cockpit. By toggling the ALTERNATE control, you can use these inputs to move your viewpoint forward/backward and left/right.
