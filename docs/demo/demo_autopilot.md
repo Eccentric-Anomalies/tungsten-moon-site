@@ -34,7 +34,7 @@ Like many small aircraft, the Sky Dart has a basic autopilot control panel just 
 | RATE MODE | joystick commands a rotation **rate**  | joystick commands a rotation **acceleration** and deactivates HOVR MODE  |
 | HOVR MODE | ship holds current **vertical rate** *and* activates HSPD MODE  | deactivates HSPD MODE |
 | HSPD MODE | ship holds current **horizontal rates** and deactivates PROP CTRL | deactivates PROP CTRL |
-| X10 | HSPD joystick inputs are $\pm$ 10 $\frac m s$ or $\frac m {s^2}$| HSPD joystick inputs are $\pm$ 1 $\frac m s$ or $\frac m {s^2}$ | 
+| X10 | HSPD joystick inputs are $\pm$ 10 ($\frac m s$ in PROP MODE, otherwise $\frac m {s^2}$) | HSPD joystick inputs are $\pm$ 1 ($\frac m s$ in PROP MODE, otherwise $\frac m {s^2}$) | 
 | PROP CTRL | joystick: horizontal rates in $\frac m s$| joystick: **change** in horizontal rates in $\frac m {s^2}$ | 
 
 The following sections cover each mode in more detail.
@@ -90,7 +90,7 @@ Although there is no speed limit for horizontal flight in HSPD mode, flying over
 Turning X10 on when HSPD mode is on increases the joystick sensitivity by a factor of 10. In [PROP CTRL](#prop-ctrl-proportional-control) mode, it changes the full scale joystick deflection from 1 $\frac m s$ to 10 $\frac m s$.
 
 ## PROP CTRL (Proportional Control)
-Proportional control mode changes how the joystick moves the horizontal speed setpoint bugs on the cross-pointer display. With PROP CTRL engaged, the setpoint bug position will track the joystick position. If the joystick is released, then the setpoint speeds will both be zero. Toggling PROP CTRL ON, then OFF is a good way to quickly reset the speed setpoints to zero.
+Proportional control mode changes how the joystick moves the horizontal speed setpoint bugs on the cross-pointer display. With PROP CTRL engaged, the setpoint bug position will track the joystick position. If the joystick is released, then the setpoint speeds will both be zero. If you disengage PROP CTRL while the ship is still moving sideways, then HSPD will use that horizontal speed as its new setpoint.
 
 When PROP CTRL and X10 are both active, full deflection of the joystick will command a horizontal speed of 10 $\frac m s$. If X10 is off, then the maximum horizontal speed you can set is 1 $\frac m s$.
 
