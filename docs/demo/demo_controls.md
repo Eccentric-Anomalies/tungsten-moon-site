@@ -22,6 +22,17 @@ You can fly the Sky Dart with a keyboard and mouse, using an optional game contr
 ## Default Keyboard Map
 ![AMC Sky Dart default keyboard map](/assets/images/demo/keyboard-map.svg)
 
+{: .note }
+The SHIFT key toggles the ALT CTRL button in the cockpit:
+
+### ALT CTRL Mode
+ALT CTRL mode changes the behavior of some inputs:
+
+|  | ALT CTRL ON | ALT CTRL OFF |
+|:--:|:--:|:--:|
+| **CAMERA INPUTS** | pans L-R and U-D  | moves L-R and F-B  |
+| **JOYSTICK INPUTS** | left-right is YAW | left-right is ROLL |
+
 ## Default Game Controller Map (and Steam Deck)
 Tungsten Moon supports many video game controllers in a generic way:
 
@@ -34,31 +45,37 @@ Tungsten Moon supports many video game controllers in a generic way:
 ### Steam Deck
 ![AMC Sky Dart Steam Deck controller map](/assets/images/demo/controller-steamdeck-map.svg)
 
+## Default VR Controller Inputs
+The default map should work for most OpenXR-compatible VR hand controllers.
+
+![AMC Sky Dart Steam Deck controller map](/assets/images/demo/vr-controller-map.svg)
+
+{: .note }
+The default VR controller input assignments may not be modified.
+
+## Default Mouse Inputs
+If you are not using a VR headset, you can:
+* Use the mouse LEFT button to press buttons in the cockpit.
+* Hover the mouse cursor over the throttle, vernier throttle, or joystick, and hold the LEFT button move the control.
+* Hover the mouse cursor over the throttle and use the mouse scroll wheel to change the throttle setting.
+* Use the mouse RIGHT button to move the camera view direction.
 
 
-### Interior View
-* D-Pad (controller) or WASD (keyboard) control the view direction inside the cockpit. By toggling the ALTERNATE control, you can use these inputs to move your viewpoint forward/backward and left/right.
-* If you are using a mouse, hold the RMB (right mouse button) and move the mouse to pan your view. Note: the Steam Deck can be configured with the trackpad emulating a mouse with the RMB held down.
+{: .note }
+The default mouse input assignments may not be modified.
 
----
+## Steam Deck Mouse Emulation
+By default, tapping the Steam Deck touchscreen with your fingertip will emulate the mouse LEFT button press. Move your viewpoint using the camera movement buttons (blue) on the controller, then tap your finger to press the virtual cockpit buttons on the screen. You can also use your finger directly on the screen to move the throttle, vernier throttle, and joystick.
 
-### Flight Controls
-* The right stick (controller) or direction keys (keyboard) control pitch and roll thrusters. 
-* The right left/right (controller) or left/right keys (keyboard) activate the yaw (rotate left/right) thrusters in ALTERNATE mode.
-* The left stick x-axis (VR controller) controls the yaw thrusters. (V0.1.6)
-* Keyboards that have a numeric keypad also work in the Orbiter style: pitch control with 8/2, roll with 4/6, and yaw with 1/3.
+The Steam Deck is very customizable. For example, you can configure the trackpad to emulate a mouse with the RIGHT mouse button held down for very responsive camera view panning.
 
----
+## Configuring PC Flight Sim Hardware
+If you are using a conventional PC joystick (typically used with flight simulators) with a throttle control, use the input mapping panel (in the cockpit) to map the **THR A+** and **THR A-** to the throttle's full and cut positions, respectively.
 
-### Main Thrust Control
-* The in-cockpit THROTTLE handle works with a mouse or VR hand controller. With a XBOX/PS game controller, the left trigger controls the THROTTLE.
-* On a game controller, the left trigger is used to manually control the thrust from zero to maximum. This is useful for quick adjustments as you approach a landing.
-* The VERNIER throttle lever is just to the right of the main THROTTLE control. Use this to make small, precise adjustments to the throttle setting. You can grab this with a mouse or VR hand controller. The VR/XBOX/PS game controller LEFT stick vertical axis, or keyboard Ctrl + PG-UP or Ctrl + PG-DN, or the keypad Ctrl+ or Ctrl- directly controls the vernier. To remap this input, select the THR + and THR - inputs on the UI mapping panel. (V0.1.6)
-* On a keyboard, PG-UP and PG-DN (keypad + or -) immediately set and hold full or zero thrust.
-* To configure an analog flightsim throttle, use the input mapping panel to map the THR A+ and THR A- to the throttle control's full and cut positions, respectively.
-* The effect of your throttle input is displayed on the IMU accelerometer. The nominal gravitational acceleration on the surface of the moon is 1.6 m/s/s. If you hold the ship acceleration at 1.6 during flight, then you  will be assured of maintaining a constant velocity, relative to the surface (which could include *no* velocity). When the ship is flown at an angle, it will accelerate sideways under thrust, and slightly *more* than 1.6 m/s/s acceleration is required to maintain altitude.
+We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
 
----
+{: .note }
+The **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs should **NOT** be mapped to a PC throttle lever. 
 
 ### Other Controls
 * Menu button or Q or ESC key will quit the program.
