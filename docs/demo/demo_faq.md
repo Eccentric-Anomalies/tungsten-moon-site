@@ -20,4 +20,4 @@ nav_order: 6
 </details>
 
 ### How do I know if my computer will run Tungsten Moon?
-Most gaming computers with 4 GB of dedicated video RAM and a discrete (plug in card) graphics processor (GPU) made by Nvidia or AMD will be fine. To be sure, install the free Tungsten Moon Demo and see how it works. Press Ctrl-Shift-H (in that order) to display the FPS on the screen. A FPS of 60 or better is excellent. Less than 60 FPS may be less than satisfactory in some situations.
+Most gaming computers with 4 GB of dedicated video RAM and a discrete (plug in card) graphics processor (GPU) made by Nvidia or AMD will be fine. To be sure, install the free Tungsten Moon Demo and see how it works. Press Ctrl-Shift-H (in that order) to display the FPS on the screen. A FPS of 60 or better is excellent. We do not recommend playing Tungsten Moon if your frame rate is consistently lower than 60 FPS.
