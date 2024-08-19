@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1225.6484 403.19997"
+   xml:space="preserve"
+   id="svg491"
+   sodipodi:docname="vr-controller-map.svg"
+   width="12.767171in"
+   height="4.1999998in"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+   id="defs491"><rect
+   x="223.45823"
+   y="295.94589"
+   width="58.153085"
+   height="34.426095"
+   id="rect8" /><marker
+   style="overflow:visible"
+   id="Triangle"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Triangle arrow"
+   markerWidth="1"
+   markerHeight="1"
+   viewBox="0 0 1 1"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"><path
+     transform="scale(0.5)"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+     d="M 5.77,0 -2.88,5 V -5 Z"
+     id="path135" /></marker><inkscape:path-effect
+   effect="copy_rotate"
+   starting_point="455.93249,188.04033"
+   origin="425.62544,188.04033"
+   id="path-effect4"
+   is_visible="true"
+   lpeversion="1.2"
+   lpesatellites=""
+   method="normal"
+   num_copies="4"
+   starting_angle="7.1677796e-06"
+   rotation_angle="90"
+   gap="0.04"
+   copies_to_360="true"
+   mirror_copies="false"
+   split_items="false"
+   link_styles="true" /><inkscape:path-effect
+   effect="mirror_symmetry"
+   start_point="598.69017,67.256461"
+   end_point="598.69017,295.10716"
+   center_point="598.69017,181.18181"
+   id="path-effect3"
+   is_visible="true"
+   lpeversion="1.2"
+   lpesatellites=""
+   mode="free"
+   discard_orig_path="false"
+   fuse_paths="false"
+   oposite_fuse="false"
+   split_items="false"
+   split_open="false"
+   link_styles="false" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<symbol
+   id="UpArrow"><title
+     id="title276">Up Arrow</title><path
+     d="M 36,9 58,31 V 46 L 42,30 V 62 H 30 V 30 L 14,46 V 31 Z"
+     style="stroke:none"
+     id="path276" /></symbol><marker
+   style="overflow:visible"
+   id="Triangle-2"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Triangle arrow"
+   markerWidth="1"
+   markerHeight="1"
+   viewBox="0 0 1 1"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"><path
+     transform="scale(0.5)"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+     d="M 5.77,0 -2.88,5 V -5 Z"
+     id="path135-6" /></marker><marker
+   style="overflow:visible"
+   id="Triangle-9"
+   refX="0"
+   refY="0"
+   orient="auto-start-reverse"
+   inkscape:stockid="Triangle arrow"
+   markerWidth="1"
+   markerHeight="1"
+   viewBox="0 0 1 1"
+   inkscape:isstock="true"
+   inkscape:collect="always"
+   preserveAspectRatio="xMidYMid"><path
+     transform="scale(0.5)"
+     style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+     d="M 5.77,0 -2.88,5 V -5 Z"
+     id="path135-1" /></marker></defs><sodipodi:namedview
+   id="namedview491"
+   pagecolor="#191919"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#191919"
+   showguides="true"
+   inkscape:zoom="1.1518344"
+   inkscape:cx="747.06921"
+   inkscape:cy="353.7835"
+   inkscape:window-width="2832"
+   inkscape:window-height="1341"
+   inkscape:window-x="2270"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg491"
+   inkscape:document-units="in"><sodipodi:guide
+     position="63.845206,373.73295"
+     orientation="0,-1"
+     id="guide10"
+     inkscape:locked="false" /></sodipodi:namedview>
+<title
+   id="title1">ANSI US QWERTY (Windows) Enter/Return</title>
+<desc
+   id="desc1">ANSI US QWERTY keyboard layout for Windows with the location of the Enter and Return keys highlighted</desc>
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#EEEEEE;stroke:#DDDDDD;}
+	.st1{fill:#CCCCCC;stroke:#000000;stroke-width:2;}
+	.st2{fill:#CC0000;stroke:#000000;stroke-width:2;}
+	.st3{fill:#339900;stroke:#000000;stroke-width:2;}
+	.st4{fill:#FCFCFC;}
+	.st5{fill:#FF6666;}
+	.st6{fill:#66CC33;}
+	.st7{fill:#FFFFFF;}
+</style>
+<g
+   id="Layer_1"
+   transform="scale(0.99971325,1.8264619)"
+   sodipodi:insensitive="true"
+   style="display:none">
+	<path
+   class="st0"
+   d="m 6.5,0.5 h 1213 c 3.3,0 6,2.7 6,6 v 336 c 0,3.3 -2.7,6 -6,6 H 6.5 c -3.3,0 -6,-2.7 -6,-6 V 6.5 c 0,-3.3 2.7,-6 6,-6 z"
+   id="path1" />
+</g>
+
+
+
+<metadata
+   id="metadata491"><rdf:RDF><cc:Work
+       rdf:about=""><dc:title>ANSI US QWERTY (Windows) Enter/Return</dc:title></cc:Work></rdf:RDF></metadata><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="339.375"
+   y="229.63654"
+   id="text494-8-9-7-4-2-9-41-8"><tspan
+     sodipodi:role="line"
+     x="339.375"
+     y="229.63654"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1"
+     id="tspan505-3-8-7-9-6">RESET VIEW</tspan><tspan
+     sodipodi:role="line"
+     x="339.375"
+     y="246.30316"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1"
+     id="tspan9" /></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="93.65873"
+   y="91.184212"
+   id="text524-0"><tspan
+     sodipodi:role="line"
+     id="tspan524-8"
+     x="93.65873"
+     y="91.184212">MAIN ENGINE</tspan></text><circle
+   style="fill:none;stroke:#e1e1e1;stroke-width:3.98772;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-6-2-8"
+   cx="268.93329"
+   cy="167.29214"
+   r="30.655741" /><g
+   id="use1-3"
+   style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="translate(608.93329,39.378122)"><title
+     id="title5">Up Arrow</title><path
+     d="m -339.99999,68.999997 22,22 V 106 l -16,-16.000003 V 122 H -346 V 89.999997 L -362,106 V 90.999997 Z"
+     style="stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6" /></g><g
+   id="use1-3-0"
+   style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="matrix(1,0,0,-1,232.93329,237.04565)"><title
+     id="title5-6">Up Arrow</title><path
+     d="M 36,9 58,31 V 46 L 42,30 V 62 H 30 V 30 L 14,46 V 31 Z"
+     style="stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-0" /></g><g
+   id="use1-3-9"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="rotate(90,-53.69882,452.49258)"><title
+     id="title5-0">Up Arrow</title><path
+     d="m -339.99999,68.999997 22,22 V 106 l -16,-16.000003 V 122 H -346 V 89.999997 L -362,106 V 90.999997 Z"
+     style="fill:#ffff00;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-4" /></g><g
+   id="use1-3-0-5"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="matrix(0,1,1,0,201.12624,130.1914)"><title
+     id="title5-6-4">Up Arrow</title><path
+     d="M 36,9 58,31 V 46 L 42,30 V 62 H 30 V 30 L 14,46 V 31 Z"
+     style="fill:#ffff00;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-0-9" /></g><circle
+   style="fill:#2a7fff;fill-opacity:1;stroke:#e1e1e1;stroke-width:2.57123;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-6-23-3"
+   cx="268.93329"
+   cy="167.29214"
+   r="19.766447" /><circle
+   style="fill:none;stroke:#e1e1e1;stroke-width:3.98772;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-6-2-8-0"
+   cx="972.16467"
+   cy="165.27167"
+   r="30.655741" /><g
+   id="use1-3-93"
+   style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="translate(1446.1647,69.357641)"><title
+     id="title5-2">Up Arrow</title></g><g
+   id="use1-3-9-8"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="rotate(90,298.49304,802.66396)"><title
+     id="title5-0-7">Up Arrow</title><path
+     d="m -339.99999,68.999997 22,22 V 106 l -16,-16.000003 V 122 H -346 V 89.999997 L -362,106 V 90.999997 Z"
+     style="fill:#ffff00;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-4-6" /></g><g
+   id="use1-3-0-5-3"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="matrix(0,1,1,0,903.4896,128.17092)"><title
+     id="title5-6-4-5">Up Arrow</title><path
+     d="M 36,9 58,31 V 46 L 42,30 V 62 H 30 V 30 L 14,46 V 31 Z"
+     style="fill:#ffff00;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-0-9-2" /></g><g
+   id="use1-3-9-8-3"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="rotate(180,316.59568,147.28837)"><title
+     id="title5-0-7-1">Up Arrow</title><path
+     d="m -339.99999,68.999997 22,22 V 106 l -16,-16.000003 V 122 H -346 V 89.999997 L -362,106 V 90.999997 Z"
+     style="fill:#ffff00;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-4-6-3" /></g><g
+   id="use1-3-0-5-3-1"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   transform="matrix(-1,0,0,1,1009.1914,96.90918)"><title
+     id="title5-6-4-5-6">Up Arrow</title><path
+     d="M 36,9 58,31 V 46 L 42,30 V 62 H 30 V 30 L 14,46 V 31 Z"
+     style="fill:#ffff00;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+     id="path6-0-9-2-7" /></g><circle
+   style="fill:#2a7fff;fill-opacity:1;stroke:#e1e1e1;stroke-width:2.57123;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-6-23-3-3"
+   cx="972.16467"
+   cy="165.27167"
+   r="19.766447" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="126.48419"
+   y="119.83582"
+   id="text494-8-5"><tspan
+     sodipodi:role="line"
+     x="126.48419"
+     y="119.83582"
+     id="tspan495-4-2"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1">INCREASE</tspan><tspan
+     sodipodi:role="line"
+     x="126.48419"
+     y="136.50244"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1"
+     id="tspan504-4">THRUST</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="126.48419"
+   y="206.2587"
+   id="text494-1-9-6"><tspan
+     sodipodi:role="line"
+     x="126.48419"
+     y="206.2587"
+     id="tspan495-6-6-0"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1">DECREASE</tspan><tspan
+     sodipodi:role="line"
+     x="126.48419"
+     y="222.92532"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1"
+     id="tspan10">THRUST</tspan></text><path
+   style="fill:#ff0000;fill-opacity:1;stroke:#e1e1e1;stroke-width:2.20346;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+   d="m 193.14096,211.2229 h 35.64215"
+   id="path7"
+   sodipodi:nodetypes="cc" /><path
+   style="fill:#ff0000;fill-opacity:1;stroke:#e1e1e1;stroke-width:2.20346;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-9)"
+   d="m 160.21929,166.19141 h 28.26262"
+   id="path7-2"
+   sodipodi:nodetypes="cc" /><path
+   style="fill:#ff0000;fill-opacity:1;stroke:#e1e1e1;stroke-width:2.20346;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle-2)"
+   d="m 189.62846,124.79999 h 35.64215"
+   id="path7-4"
+   sodipodi:nodetypes="cc" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:start;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1"
+   x="1049.0618"
+   y="223.72713"
+   id="text524-6-5"><tspan
+     sodipodi:role="line"
+     id="tspan524-72-4"
+     x="1049.0618"
+     y="223.72713">JOYSTICK</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="624.41272"
+   y="378.01572"
+   id="text500-8-9-6"><tspan
+     sodipodi:role="line"
+     id="tspan500-3-5-0"
+     x="624.41272"
+     y="378.01572">VR HAND CONTROLLERS</tspan></text><ellipse
+   style="fill:none;stroke:#e1e1e1;stroke-width:2.88;stroke-dasharray:none"
+   id="path8"
+   cx="300.47842"
+   cy="170.87917"
+   rx="95.153915"
+   ry="139.70428" /><ellipse
+   style="fill:none;stroke:#e1e1e1;stroke-width:2.88;stroke-dasharray:none"
+   id="path8-0"
+   cx="940.59912"
+   cy="168.80159"
+   rx="95.153915"
+   ry="139.70428" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="332.55981"
+   y="112.284"
+   id="text500-1-1"><tspan
+     sodipodi:role="line"
+     id="tspan500-8-9"
+     x="332.55981"
+     y="112.284">RESTART</tspan></text><circle
+   style="fill:#55d400;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-68-9"
+   cx="336.59473"
+   cy="134.40988"
+   r="14.760081" /><circle
+   style="fill:#2a7fff;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-6-4"
+   cx="336.59473"
+   cy="199.50282"
+   r="14.760081" /><text
+   xml:space="preserve"
+   id="text8"
+   style="fill:#2a7fff;font-size:26.66666667px;-inkscape-font-specification:'Arial Bold';font-family:Arial;stroke-width:2.88;font-weight:bold;stroke:#e1e1e1;text-align:center;stroke-dasharray:none;fill-opacity:1;white-space:pre;shape-inside:url(#rect8)" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="1058.9423"
+   y="160.60974"
+   id="text494-8-9-7-4-8-0-8"><tspan
+     sodipodi:role="line"
+     x="1058.9423"
+     y="160.60974"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan509-6-9-5">ROLL</tspan><tspan
+     sodipodi:role="line"
+     x="1058.9423"
+     y="177.27637"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan11">RIGHT</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="973.95093"
+   y="241.09311"
+   id="text494-8-9-7-4-8-0-8-2"><tspan
+     sodipodi:role="line"
+     x="973.95093"
+     y="241.09311"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan11-1">PITCH</tspan><tspan
+     sodipodi:role="line"
+     x="973.95093"
+     y="257.75974"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan12">BACKWARD</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="873.85089"
+   y="160.60974"
+   id="text494-8-9-7-4-8-0-8-5"><tspan
+     sodipodi:role="line"
+     x="873.85089"
+     y="160.60974"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan11-2">ROLL</tspan><tspan
+     sodipodi:role="line"
+     x="873.85089"
+     y="177.27637"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan13">LEFT</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;text-anchor:start;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="968.40558"
+   y="75.974586"
+   id="text494-8-9-7-4-8-0-8-3"><tspan
+     sodipodi:role="line"
+     x="968.40558"
+     y="75.974586"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan509-6-9-5-0">PITCH</tspan><tspan
+     sodipodi:role="line"
+     x="968.40558"
+     y="92.641212"
+     style="font-weight:bold;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1"
+     id="tspan11-19">FORWARD</tspan></text><circle
+   style="fill:none;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-68-9-2"
+   cx="907.72009"
+   cy="131.72008"
+   r="14.760081" /><circle
+   style="fill:none;fill-opacity:1;stroke:#e1e1e1;stroke-width:1.92;stroke-dasharray:none;stroke-opacity:1"
+   id="path4-6-4-9"
+   cx="907.72009"
+   cy="196.81302"
+   r="14.760081" /><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="492.95102"
+   y="178.02036"
+   id="text500-8-9-6-1"><tspan
+     sodipodi:role="line"
+     id="tspan500-3-5-0-4"
+     x="492.95102"
+     y="178.02036">LEFT HAND</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="740.57477"
+   y="178.34587"
+   id="text500-8-9-6-1-8"><tspan
+     sodipodi:role="line"
+     id="tspan500-3-5-0-4-0"
+     x="740.57477"
+     y="178.34587">RIGHT HAND</tspan></text><text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#e1e1e1;fill-opacity:1;stroke:none;stroke-width:0.982677"
+   x="124.86029"
+   y="171.38057"
+   id="text494-8-9-7-4-2-9-41-8-4"><tspan
+     sodipodi:role="line"
+     x="124.86029"
+     y="171.38057"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1"
+     id="tspan505-3-8-7-9-6-8">YAW</tspan><tspan
+     sodipodi:role="line"
+     x="124.86029"
+     y="188.0472"
+     style="font-weight:bold;fill:#e1e1e1;fill-opacity:1"
+     id="tspan9-1" /></text></svg>
