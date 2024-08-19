@@ -23,6 +23,17 @@ You can fly the Sky Dart with a keyboard and mouse, using an optional game contr
 ![AMC Sky Dart default keyboard map](/assets/images/demo/keyboard-map.svg)
 
 ## Default Game Controller Map (and Steam Deck)
+Tungsten Moon supports many video game controllers in a generic way:
+
+### XBOX
+![AMC Sky Dart XBOX controller map](/assets/images/demo/controller-map.svg)
+
+### PlayStation
+![AMC Sky Dart PS controller map](/assets/images/demo/controller-ps-map.svg)
+
+### Steam Deck
+![AMC Sky Dart Steam Deck controller map](/assets/images/demo/controller-steamdeck-map.svg)
+
 
 
 ### Interior View
