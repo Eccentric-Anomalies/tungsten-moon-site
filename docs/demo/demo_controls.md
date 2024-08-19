@@ -19,6 +19,9 @@ You can fly the Sky Dart with a keyboard and mouse, using an optional game contr
 {:toc}
 </details>
 
+## Sky Dart Controls
+All of the Sky Dart user inputs (i.e. buttons, joysticks, etc.) are controllable in the cockpit using either your computer mouse, or your virtual VR fingers or hands. A subset of these inputs may be mapped or assigned to a game controller, joystick, or computer keyboard. Following are the default assignments for these inputs; you may customize them using a control panel in the Sky Dart cockpit.
+
 ## Default Keyboard Map
 ![AMC Sky Dart default keyboard map](/assets/images/demo/keyboard-map.svg)
 
@@ -76,6 +79,8 @@ We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/dow
 
 {: .note }
 The **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs should **NOT** be mapped to a PC throttle lever. 
+
+## Reassigning Control Inputs
 
 ### Other Controls
 * Menu button or Q or ESC key will quit the program.
