@@ -83,7 +83,7 @@ The **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs should **NOT** be 
 ## Other Equipment
 
 ### Inertial Measurement Unit (IMU)
-We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link /demo_howtofly.md %}#basic_instruments) section, but without explaining anything else about it.
+We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link docs/demo/demo_howtofly.md %}#basic_instruments) section, but without explaining anything else about it.
 ![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="150" }
 The IMU consists of accelerometers and gyroscopes that measure the acceleration vector of the Sky Dart, and any rotational velocity. On the surface, the IMU measures the rotation of the moon itself, and uses that to set the heading of the artificial horizon ball. The IMU uses the accelerometers to determine the direction of local vertical, and uses that to set the pitch and roll of the artificial horizon ball.
 
