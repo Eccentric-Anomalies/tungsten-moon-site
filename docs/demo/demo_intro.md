@@ -10,7 +10,7 @@ The Tungsten Moon Demo includes the basic flight mechanics of the full Tungsten 
 
 ## What's Going On Here?
 
-Tungsten Moon Demo puts you in the virtual seat of the AMC Sky Dart utility/logistics spacecraft. Alone on a one million square kilometer moon made of solid Tungsten, your goal is to figure out how to fly the Sky Dart safely. There are a total of twenty round landing pads spread across the surface of the moon. Find each pad and land on it safely. When you do, the flashing red light in the center of the pad will turn green. Now go find the next one!
+Tungsten Moon Demo puts you in the virtual seat of the AMC Sky Dart utility/logistics spacecraft. Alone on a one million square kilometer moon made of solid Tungsten, you have to figure out how to fly the Sky Dart safely. There are a total of twenty (20) round landing pads spread across the surface of the moon. Find each pad and land on it safely. When you do, the flashing red light in the center of the pad will turn green. Now go find the next one!
 
 ## The Goal of the Game
 
