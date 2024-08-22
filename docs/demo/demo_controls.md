@@ -78,13 +78,15 @@ If you are using a conventional PC joystick (typically used with flight simulato
 We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
 
 {: .note }
-The **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs should **NOT** be mapped to a PC throttle lever. 
+Do **NOT** map the **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs to a PC throttle lever. 
 
 ## Other Equipment
 
 ### Inertial Measurement Unit (IMU)
-We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link docs/demo/demo_howtofly.md %}#basic_instruments) section, but without explaining anything else about it.
-![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="150" }
+We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link docs/demo/demo_howtofly.md %}#basic-instruments) section, but without explaining anything else about it.
+
+![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="200" }
+
 The IMU consists of accelerometers and gyroscopes that measure the acceleration vector of the Sky Dart, and any rotational velocity. On the surface, the IMU measures the rotation of the moon itself, and uses that to set the heading of the artificial horizon ball. The IMU uses the accelerometers to determine the direction of local vertical, and uses that to set the pitch and roll of the artificial horizon ball.
 
 The IMU continually measures changes in velocity and rotation and updates the orientation of the ball, and displays the estimated altitude above the mean "sea level" altitude, the speed relative to the center of the moon, and the acceleration scalar. These are somewhat useful when you are more than 2000 meters above terrain and out of radar range.
@@ -97,10 +99,13 @@ When the ship is aloft, and stationary, press the **RESET** button to set the he
 
 When you land, the IMU will automatically reset to show the correct heading and slope angle for your landing location.
 
+## Sky Dart Nameplate and Accessory Panel
+The accessory panel is on the left side of the Sky Dart cockpit.
+
 ![accessory panel](/assets/images/demo/accessory_panel.png)
 
 ### Landing Light
-The button with a down-pointing headlight symbol turns the exterior landing light on and off. The light points downward and a little forward, with a maximum range of 100 m. This is very useful for landing in complete darkness, and especially when no landing pad is nearby.
+The button with a down-pointing headlight symbol toggles the exterior landing light. The light is aimed downward and a little forward, with a maximum range of 100 m. This is very useful for landing in complete darkness, and especially when no landing pad is nearby.
 
 ### Fuel Gauge and Refill
 Press the button with the "gas pump" symbol to refill the Sky Dart propulsion fuel tanks. This is only available when the Sky Dart is safely on the ground or on a landing pad. The display to the right shows the percentage of fuel remaining. When the fuel runs out the main engine will stop firing; Sky Dart will fall out of the sky and crash, killing the occupant.
