@@ -102,18 +102,18 @@ The point on the orbital ellipse that is farthest from the center of the moon is
 | Type of Orbit | AA (apoapsis) | PA (periapsis) |
 |:--|:--|:--|
 | stable elliptical | highest altitude  | lowest altitude  |
-| elliptical (crash expected) | highest altitude  | -\ -  |
+| elliptical (crash expected) | highest altitude  | - -  |
 | Circular |  same as PA | same as AA |
-| Hyperbolic (escape) | -- | lowest altitude |
-| Hyperbolic (escape if altitude increasing) | -- | -- |
-| Hyperbolic (crash expected if altitude decreasing) | -- | -- |
+| Hyperbolic (escape) | - - | lowest altitude |
+| Hyperbolic (escape if altitude increasing) | - - | - - |
+| Hyperbolic (crash expected if altitude decreasing) | - - | - - |
 
 An *escape* orbit will bring your spacecraft infinitely far from the moon after an infinite number of hours.
 
 A *crash expected* orbit will *eventually* bring the Sky Dart to the surface of the moon at high speed, scattering bits of metal and flesh over the landscape. Intervention is required to avoid this outcome.
 
 {: .note }
-An elliptical orbit can mimic a hyperbolic orbit if the AA (apoapsis) value is higher than 99 (displays as --). This is uncommon.
+An elliptical orbit can mimic a hyperbolic orbit if the AA (apoapsis) value is higher than 99 (displays as - -). This is uncommon.
 
 #### IMU Reset
 When the ship is aloft, and stationary, press the **RESET** button to set the heading to zero and level the artificial horizon. This is useful for making a heading, pitch, or roll change, without reference to the actual horizon.
