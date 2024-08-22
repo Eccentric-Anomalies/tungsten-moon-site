@@ -102,7 +102,7 @@ The point on the orbital ellipse that is farthest from the center of the moon is
 | Type of Orbit | AA (apoapsis) | PA (periapsis) |
 |:--|:--|:--|
 | stable elliptical | highest altitude  | lowest altitude  |
-| elliptical (crash expected) | highest altitude  | --  |
+| elliptical (crash expected) | highest altitude  | -\ -  |
 | Circular |  same as PA | same as AA |
 | Hyperbolic (escape) | -- | lowest altitude |
 | Hyperbolic (escape if altitude increasing) | -- | -- |
