@@ -94,13 +94,34 @@ The IMU continually measures changes in velocity and rotation and updates the or
 {: .note }
 The artificial horizon ball does not correct its rotation for the rotation of the moon, or the motion of the Sky Dart over the curved surface of the moon. This means that the local horizon angle will deviate from the artificial horizon angle as you move away from your starting position. Future versions of the IMU may correct this omission.
 
-### IMU Reset
+#### Orbital Apsides
+The IMU is always computing the *orbital apsides* of the Sky Dart, assuming the throttle cut at that instant. For any ballistic (just gravity doing its thing with no artificial thrust) trajectory, the Sky Dart will follow an elliptical (or hyperbolic) path (orbit) around the moon. For short, low altitude flights, the elliptical path is very eccentric and lies mostly inside the moon itself, with only the tip of the ellipse above the surface. The shape of piece that is above the surface is approximately parabolic, which is why a parabolic arc makes a good approximation for short flights. 
+
+The point on the orbital ellipse that is farthest from the center of the moon is the apoapsis (abbreviated AA). The point closest to the center is the periapsis (PA). Depending on what the Sky Dart is doing (ascending or descending), various combinations of AA and PA need interpretation:
+
+| Type of Orbit | AA (apoapsis) | PA (periapsis) |
+|:--:|:--:|:--:|
+| stable elliptical | highest altitude  | lowest altitude  |
+| elliptical (crash expected) | highest altitude  | --  |
+| Circular |  same as PA | same as AA |
+| Hyperbolic (escape) | -- | lowest altitude |
+| Hyperbolic (escape if altitude increasing) | -- | -- |
+| Hyperbolic (crash expected if altitude decreasing) | -- | -- |
+
+An *escape* orbit will bring your spacecraft infinitely far from the moon after an infinite number of hours.
+
+A *crash expected* orbit will *eventually* bring the Sky Dart to the surface of the moon at high speed, scattering bits of metal and flesh over the landscape. Intervention is required to avoid this outcome.
+
+{: .note }
+An elliptical orbit can mimic a hyperbolic orbit if the AA (apoapsis) value is higher than 99 (displays as --). This is uncommon.
+
+#### IMU Reset
 When the ship is aloft, and stationary, press the **RESET** button to set the heading to zero and level the artificial horizon. This is useful for making a heading, pitch, or roll change, without reference to the actual horizon.
 
 When you land, the IMU will automatically reset to show the correct heading and slope angle for your landing location.
 
 ## Sky Dart Nameplate and Accessory Panel
-The accessory panel is on the left side of the Sky Dart cockpit.
+The accessory panel is on the left side of the Sky Dart cockpit:
 
 ![accessory panel](/assets/images/demo/accessory_panel.png)
 
