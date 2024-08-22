@@ -80,9 +80,38 @@ We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/dow
 {: .note }
 The **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs should **NOT** be mapped to a PC throttle lever. 
 
+## Other Equipment
+
+### Inertial Measurement Unit (IMU)
+We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link demo_howtofly.md %}#basic_instruments) section, but without explaining anything else about it.
+![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="150" }
+The IMU consists of accelerometers and gyroscopes that measure the acceleration vector of the Sky Dart, and any rotational velocity. On the surface, the IMU measures the rotation of the moon itself, and uses that to set the heading of the artificial horizon ball. The IMU uses the accelerometers to determine the direction of local vertical, and uses that to set the pitch and roll of the artificial horizon ball.
+
+The IMU continually measures changes in velocity and rotation and updates the orientation of the ball, and displays the estimated altitude above the mean "sea level" altitude, the speed relative to the center of the moon, and the acceleration scalar. These are somewhat useful when you are more than 2000 meters above terrain and out of radar range.
+
+{: .note }
+The artificial horizon ball does not correct its rotation for the rotation of the moon, or the motion of the Sky Dart over the curved surface of the moon. This means that the local horizon angle will deviate from the artificial horizon angle as you move away from your starting position. Future versions of the IMU may correct this omission.
+
+### IMU Reset
+When the ship is aloft, and stationary, press the **RESET** button to set the heading to zero and level the artificial horizon. This is useful for making a heading, pitch, or roll change, without reference to the actual horizon.
+
+When you land, the IMU will automatically reset to show the correct heading and slope angle for your landing location.
+
+![accessory panel](/assets/images/demo/accessory_panel.png)
+
+### Landing Light
+The button with a down-pointing headlight symbol turns the exterior landing light on and off. The light points downward and a little forward, with a maximum range of 100 m. This is very useful for landing in complete darkness, and especially when no landing pad is nearby.
+
+### Fuel Gauge and Refill
+Press the button with the "gas pump" symbol to refill the Sky Dart propulsion fuel tanks. This is only available when the Sky Dart is safely on the ground or on a landing pad. The display to the right shows the percentage of fuel remaining. When the fuel runs out the main engine will stop firing; Sky Dart will fall out of the sky and crash, killing the occupant.
+
+### Chronometer
+The chronometer is a clock that keeps track of your time on board the Sky Dart. The clock measures time in familiar units of hours, minutes and seconds, but the "DAYS" display increments with each revolution of the moon about its axis.
+
+Days are ten hours long on Tungsten Moon. When the day count changes, the clock resets to midnight.
+
 ## Reassigning Control Inputs
 
-### Other Controls
 * Menu button or Q or ESC key will quit the program.
 * X button or X key will toggle attitude rate mode (ON by default).
 * Y button or Y key will toggle vertical speed mode (VSPEED). In this mode, the vernier throttle control adjusts the desired ascent/descent rate in m/s. (V0.1.6)
