@@ -78,7 +78,9 @@ If you are using a conventional PC joystick (typically used with flight simulato
 We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
 
 {: .note }
-Do **NOT** map the **THR MAX**, **THR MIN**, **THR +**, and **THR -** inputs to a PC throttle lever. 
+* Do **NOT** map the **THR MAX**, **THR MIN**, **THR +**, or **THR -** inputs to a PC throttle lever. 
+* If you configure a PC joystick, we recommend mapping **all** the available inputs to buttons or controls on the device. We do not recommend switching back and forth between a joystick and a game controller on the same computer. Choose one.
+* Unlike your game progress, joystick or controller configurations are not shared between different machines using the same Steam account.
 
 ## Other Equipment
 
