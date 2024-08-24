@@ -73,11 +73,10 @@ By default, tapping the Steam Deck touchscreen with your fingertip will emulate 
 The Steam Deck is very customizable. For example, you can configure the trackpad to emulate a mouse with the RIGHT mouse button held down for very responsive camera view panning.
 
 ## Configuring PC Flight Sim Hardware
-If you are using a conventional PC joystick (typically used with flight simulators) with a throttle control, use the input mapping panel (in the cockpit) to map the **THR A+** and **THR A-** to the throttle's full and cut positions, respectively.
+Tungsten Moon Demo supports traditional PC joysticks quite well, but there are a few things to be aware of:
 
-We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
-
-{: .note }
+* If you are using a conventional PC joystick (typically used with flight simulators) with a throttle control, use the input mapping panel (in the cockpit) to map the **THR A+** and **THR A-** to the throttle's full and cut positions, respectively.
+* We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
 * Do **NOT** map the **THR MAX**, **THR MIN**, **THR +**, or **THR -** inputs to a PC throttle lever. 
 * If you configure a PC joystick, we recommend mapping **all** the available inputs to buttons or controls on the device. We do not recommend switching back and forth between a joystick and a game controller on the same computer. Choose one.
 * Unlike your game progress, joystick or controller configurations are not shared between different machines using the same Steam account.
