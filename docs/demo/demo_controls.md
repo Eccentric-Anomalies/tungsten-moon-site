@@ -138,14 +138,29 @@ The chronometer is a clock that keeps track of your time on board the Sky Dart. 
 Days are ten hours long on Tungsten Moon. When the day count changes, the clock resets to midnight.
 
 ## Reassigning Control Inputs
+The input assignment panel is on the right side of the Sky Dart cockpit:
 
-* Menu button or Q or ESC key will quit the program.
-* X button or X key will toggle attitude rate mode (ON by default).
-* Y button or Y key will toggle vertical speed mode (VSPEED). In this mode, the vernier throttle control adjusts the desired ascent/descent rate in m/s. (V0.1.6)
-* The ALARM button will light if there is any system failure, or the autopilot VSPEED mode is disengaged involuntarily. Press the ALARM to extinguish the button and silence any audible alarms. (V0.1.6)
-* There is an in-cockpit landing light toggle switch. There is no controller button or keyboard key mapped to this switch.
-* There is an in-cockpit button for refilling the propellant tank. There is no controller button or key for this. You can only refill the tank when you have landed on an official, round landing pad.
-* B controller button or R key or LEFT VR controller B/Y button will restart at your current scenario location.
-* Left stick PUSH (controller) or V key or LEFT VR controller A/X button will reset your view position.
-* There is an in-cockpit button to reset the attitude indicator. When the ship is stationary on the ground, the internal gyroscope and accelerometers can determine the rotation axis of the moon, and the ship's orientation with respect to the horizon; pressing reset will initialize the indicator to show true heading (0 degrees N, 90 degrees E, etc.) and tilt. When the ship is aloft, and **not** rotating, then the reset button will force the indicator to show heading of zero degrees and level horizon, regardless of the ship's actual position. This is because there are no external references (i.e. gps satellites or ground beacons) that can determine true orientation or position. Future versions of the game will probably incorporate additional navigational aids and attitude indicator modes.
-* The horizontal drift indicator has three ranges (1x, 10x, and 100x) selectable with "radio buttons". They correspond to +/-1, +/-10, and +/-100 m/s speed, full scale.
+![input assignment panel](/assets/images/demo/assignment_panel.png)
+
+Use the input assignment panel to change the default buttons and joystick assignments on a game controller, or to assign the inputs to a PC joystick.
+
+Before you can use the panel, turn it on by pressing the power button in the upper-left corner of the panel. 
+
+{: .note }
+Once the panel is on, you won't be able to change your viewpoint. Be sure you can clearly see the whole panel before turning it on.
+
+Each row of the panel is a different command. The commands at the top of the panel with two different names are typically analog inputs that can have a range of output values. For example, the THR + and THR - inputs correspond to the full up and full down inputs of the vernier throttle control (round knob). To assign the input to an analog control (like a joystick axis) you would use this procedure:
+
+1. Press (with your mouse or VR finger) the left-most square button. The button should illuminate and display the word "listen".
+2. Move the joystick in the direction for that command until legend on the button changes (e.g. "axis 1 -").
+3. Press the button again to lock that setting.
+4. Repeat steps 1-3 for the right-most square button.
+5. If your chosen input device was already assigned to an input, it will clear the previous assignment and the corresponding button will illuminate to remind  you that it should get a different assignment.
+6. Continue with any other inputs until they are all assigned. 
+
+Once the assignments are complete, the KEEP CHANGES and UNDO CHANGES buttons should be illuminated. If you are satisfied with the changes, press KEEP CHANGES, then turn off the panel using its power button.
+
+If, instead, you want to return to the default input configuration, just press LOAD DEFAULTS, followed by KEEP CHANGES.
+
+{: .note }
+The square buttons are specifically for assignment to a game controller joystick, analog input, or button. The rectangular buttons are for assignment to keyboard buttons. Up to two different keyboard buttons and one game controller input may be assigned to each input.
