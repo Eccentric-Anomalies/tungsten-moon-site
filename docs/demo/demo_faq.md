@@ -49,7 +49,7 @@ If you are flying long distances by moving sideways while hovering (for example,
 
 You can plan parabolic flights with fair accuracy by using this physics trajectory distance formula:
 
-$$ v \approx 40 \sqrt{D} $$
+$$v \approx 40 \sqrt{D}$$
 
 *v*:
 Speed in m/s
@@ -64,7 +64,7 @@ Since the distance formula assumes an *instantaneous* launch at the speed, *v*, 
 
 Hover mode works well with short flights (a few km) and speeds below 100 m/s. If you are flying above rough terrain, your top speed will be considerably lower because the autopilot can’t reliably maintain altitude over rough terrain. For greater distances, you can manage your own hover and accelerate to much higher horizontal speeds. Use the basic distance formula and the chronometer to estimate your arrival time at your destination:
 
-$$ t = \frac {1000 \cdot D} v $$
+$$t = \frac {1000 \cdot D} v$$
 
 *v*:
 HVEL speed in m/s
