@@ -3,12 +3,8 @@ title: Home
 layout: home
 nav_order: 1
 usemathjax: true
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/banner.jpeg
 ---
-
+![Tungsten Moon landscape](/assets/images/banner.jpeg)
 # TUNGSTEN MOON
 
 In 1988, NASA found a wormhole that led to a remote star with a single planet. A gas giant. Orbiting the planet was a single moon made of solid metal. A Tungsten Moon.
