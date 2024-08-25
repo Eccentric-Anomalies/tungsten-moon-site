@@ -12,7 +12,7 @@ We built this game because we love playing it and hope you to love it too! If yo
 Before reaching out with a question, see if your topic is already addressed in the [flight manual]({% link docs/demo/demo_intro.md %}) or [FAQ]({% link docs/demo/demo_faq.md %}).
 
 ## E-Mail
-For personalized support, please send an email to support@eccentricanomalies.com. Please let us know whether you are using the demo or full (early access) version of Tungsten Moon. Someone from the team will respond as soon as possible.
+For personalized support, please send an email to [support@eccentricanomalies.com](mailto:support@eccentricanomalies.com). Please let us know whether you are using the demo or full (early access) version of Tungsten Moon. Someone from the team will respond as soon as possible.
 
 ## Community Support 
 The following forums are also support options. The Tungsten Moon support team monitors these channels and will respond.
