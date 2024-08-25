@@ -53,10 +53,10 @@ $v \approx 40 \sqrt{D}$
 {: style="text-align: center;"}
 
 *v*
-:Speed in m/s
+: Speed in m/s
 
 *D*
-:Horizontal distance to fly, in km
+: Horizontal distance to fly, in km
 
 Launch at an angle of about 30 degrees from vertical, at full thrust, while adjusting your pitch to maintain HVEL and VVEL as close to each other as possible. When you reach the desired velocity (*v* in the equation above), cut your thrust and note your speed. On the other end, as you are descending, cut in full thrust when your speed reaches the speed you noted on the way up.
 
@@ -69,12 +69,12 @@ $t = \frac {1000 \cdot D} v$
 {: style="text-align: center;"}
 
 *v*
-:HVEL speed in m/s
+: HVEL speed in m/s
 
 *D*
-:Horizontal distance to fly, in km
+: Horizontal distance to fly, in km
 
 *t*
-:Time needed for the trip, in seconds
+: Time needed for the trip, in seconds
 
 Establish a constant HVEL as soon as possible, then compute the time of flight and add it to the current chronometer time to estimate your arrival time. As the appointed time draws near, keep a sharp eye out for the approaching landing site and be prepared to decelerate and land.
