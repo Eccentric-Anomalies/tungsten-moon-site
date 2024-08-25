@@ -47,7 +47,7 @@ Orbital velocity near the surface of the moon is approximately 700 m/s. The goal
 ### Why do I run out of fuel when flying long distances? You said I could go anywhere!
 If you are flying long distances by moving sideways while hovering (for example, by using “hover mode”), then you are not making the most efficient use of your propulsion system. The most efficient way of flying *anywhere* on the moon is to use maximum thrust to launch into either a parabolic trajectory (shorter trips) or orbit (longer distances). While orbital flight can literally take you anywhere on the surface, the Sky Dart in Tungsten Moon Demo is not equipped with navigation equipment needed to pinpoint a specific landing site.
 
-You can plan parabolic flights with fair accuracy by using this physics trajectory distance formula:
+You can plan parabolic flights with fair accuracy by using this physics projectile distance formula:
 
 $v \approx 40 \sqrt{D}$
 {: style="text-align: center;"}
@@ -66,6 +66,7 @@ Since the distance formula assumes an *instantaneous* launch at the speed, *v*, 
 Hover mode works well with short flights (a few km) and speeds below 100 m/s. If you are flying above rough terrain, your top speed will be considerably lower because the autopilot can’t reliably maintain altitude over rough terrain. For greater distances, you can manage your own hover and accelerate to much higher horizontal speeds. Use the basic distance formula and the chronometer to estimate your arrival time at your destination:
 
 $t = \frac {1000 \cdot D} v$
+{: style="text-align: center;"}
 
 *v*:
 HVEL speed in m/s
