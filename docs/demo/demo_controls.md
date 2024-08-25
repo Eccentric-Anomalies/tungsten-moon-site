@@ -143,7 +143,7 @@ The input assignment panel is on the right side of the Sky Dart cockpit:
 ![input assignment panel](/assets/images/demo/assignment_panel.png){: width="400" }
 
 
-Use the input assignment panel to change the default buttons and joystick assignments on a game controller, or to assign the inputs to a PC joystick.
+Use the input assignment panel to change the default buttons and joystick assignments on a game controller, or to assign the inputs to a PC joystick or computer keyboard.
 
 Before you can use the panel, turn it on by pressing the power button in the upper-left corner of the panel. 
 
