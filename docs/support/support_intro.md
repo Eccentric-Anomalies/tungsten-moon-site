@@ -21,7 +21,7 @@ The following forums are also support options. The Tungsten Moon support team mo
 For community support within Steam, post on either the [General Discussion forum](https://steamcommunity.com/app/3104900/discussions/0/) or the [Tungsten Moon DEMO Support forum](https://steamcommunity.com/app/3104900/discussions/1/) for questions about the demo edition.
 
 ### Reddit
-For community support on Reddit, post to the [Tungsten Moon subreddit](https://www.reddit.com/r/).
+For community support on Reddit, post to the [Tungsten Moon subreddit](https://www.reddit.com/r/tungstenmoon).
 
 ### Discord
 For community support on Discord, please visit the [Tungsten Moon Discord Channel](https://discord.gg/H27Rtndf7H).
