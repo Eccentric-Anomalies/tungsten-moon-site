@@ -33,7 +33,7 @@ We recommend running Tungsten Moon Demo from Steam. Configure your headset as an
 Some landing pads are spawn points for the game, but you are free to fly anywhere on the surface of the moon.
 
 ### I am trying to find a pad? Where is the light?
-The landing pad lights are only visible when you are closer than 10 km from it in any axis. Note: if your altitude is above 10 km, you will not see it! 
+The landing pad lights are only visible when you are closer than 10 km to it any direction. Note: if your altitude is above 10 km, you will not see it! 
 
 ### I keep flying toward pads but I don't ever find them. I set the heading correctly.
 Since the Sky Dart is a realistic spacecraft and not an airplane, the heading shown on the artificial horizon is not automatically the direction you are traveling! When setting a heading, also check there is no horizontal drift shown on the cross-pointer gauge to the right. The heading must be correct and the horizontal drift must be centered (check with the x1 range to be sure!). This must be monitored both when starting a trip and before the lander passes an altitude of 2 km. The radar and cross-pointer do not operate above 2 km since there is no return from the radar above that altitude.
