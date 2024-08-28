@@ -15,6 +15,8 @@ As a mission specialist, you were never trained to be a pilot. Learn to fly the 
 
 ## Demo Version
 
+[Install the Demo](steam://install/3118640){: .btn .btn-green }
+
 The [Tungsten Moon Demo]({% link docs/demo/demo_intro.md %}) is available for Windows and Linux and support both desktop and VR with keyboard or XBOX/PS game controller inputs in either mode. You can also set up PC analog joysticks or other flight sim hardware from inside the game. VR hand controllers support grabbing handles and pushing buttons (Vive/Quest tested).
 
 # More About The Game
