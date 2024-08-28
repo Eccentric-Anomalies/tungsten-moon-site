@@ -17,10 +17,6 @@ As a mission specialist, you were never trained to be a pilot. Learn to fly the 
 
 The [Tungsten Moon Demo]({% link docs/demo/demo_intro.md %}) is available for Windows and Linux and support both desktop and VR with keyboard or XBOX/PS game controller inputs in either mode. You can also set up PC analog joysticks or other flight sim hardware from inside the game. VR hand controllers support grabbing handles and pushing buttons (Vive/Quest tested).
 
-<div allowtransparency="true" style="background: #27262b;">
-<iframe src="https://store.steampowered.com/widget/3118640/" frameborder="0" width="646" height="190"></iframe>
-</div>
-
 # More About The Game
 
 ## The SkyDart
