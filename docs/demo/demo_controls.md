@@ -130,7 +130,7 @@ The accessory panel is on the left side of the Sky Dart cockpit:
 The button with a down-pointing headlight symbol toggles the exterior landing light. The light is aimed downward and a little forward, with a maximum range of 100 m. This is very useful for landing in complete darkness, and especially when no landing pad is nearby.
 
 ### Fuel Gauge and Refill
-Press the button with the "gas pump" symbol to refill the Sky Dart propulsion fuel tanks. This is only available when the Sky Dart is safely on the ground or on a landing pad. The display to the right shows the percentage of fuel remaining. When the fuel runs out the main engine will stop firing; Sky Dart will fall out of the sky and crash, killing the occupant.
+Press the button with the "gas pump" symbol to refill the Sky Dart propulsion fuel tanks. This is only available when the Sky Dart is safely on the ground or on a landing pad. The display to the right shows the percentage of fuel remaining. When the fuel runs out, the main engine will stop firing; Sky Dart will fall out of the sky and crash, killing the occupant.
 
 ### Chronometer
 The chronometer is a clock that keeps track of your time on board the Sky Dart. The clock measures time in familiar units of hours, minutes and seconds, but the "DAYS" display increments with each revolution of the moon about its axis.
