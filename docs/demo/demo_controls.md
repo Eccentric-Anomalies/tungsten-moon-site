@@ -8,7 +8,7 @@ nav_order: 5
 # Sky Dart Controls
 You can fly the Sky Dart with a keyboard and mouse, using an optional game controller (e.g. XBOX), with PC flight simulator joysticks (e.g. HOTAS), or with an OpenXR-compatible VR headset and hand-controllers. 
 
-All of the Sky Dart user inputs (i.e. buttons, joysticks, etc.) are controllable in the cockpit using either your computer mouse, or your virtual VR fingers or hands. A subset of these inputs may be mapped or assigned to a game controller, joystick, or computer keyboard. Following are the default assignments for these inputs; you may customize them using a control panel in the Sky Dart cockpit.
+All the Sky Dart user inputs (i.e. buttons, joysticks, etc.) are controllable in the cockpit using either your computer mouse, or your virtual VR fingers or hands. A subset of these inputs may be mapped or assigned to a game controller, joystick, or computer keyboard. Following are the default assignments for these inputs; you may customize them using a control panel in the Sky Dart cockpit.
 
 {: .no_toc }
 
