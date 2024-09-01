@@ -96,7 +96,7 @@ The IMU continually measures changes in velocity and rotation and updates the or
 The artificial horizon ball does not correct its rotation for the rotation of the moon, or the motion of the Sky Dart over the curved surface of the moon. This means that the local horizon angle will deviate from the artificial horizon angle as you move away from your starting position. Future versions of the IMU may correct this omission.
 
 #### Orbital Apsides
-The IMU is always computing the *orbital apsides* of the Sky Dart, assuming the throttle cut at that instant. For any ballistic (just gravity doing its thing with no artificial thrust) trajectory, the Sky Dart will follow an elliptical (or hyperbolic) path (orbit) around the moon. For short, low altitude flights, the elliptical path is very eccentric and lies mostly inside the moon itself, with only the tip of the ellipse above the surface. The shape of piece that is above the surface is approximately parabolic, which is why a parabolic arc makes a good approximation for short flights. 
+The IMU is always computing the *orbital apsides* of the Sky Dart, assuming the throttle cut at that instant. For any ballistic (just gravity doing its thing with no artificial thrust) trajectory, the Sky Dart will follow an elliptical (or hyperbolic) path (orbit) around the moon. For short, low altitude flights, the elliptical path is very eccentric and lies mostly inside the moon itself, with only the tip of the ellipse above the surface. The shape of the piece that is above the surface is approximately parabolic, which is why a parabolic arc makes a good approximation for short flights. 
 
 The point on the orbital ellipse that is farthest from the center of the moon is the apoapsis (abbreviated AA). The point closest to the center is the periapsis (PA). Depending on what the Sky Dart is doing (ascending or descending), combinations of AA and PA mean different things:
 
@@ -153,7 +153,7 @@ Once the panel is on, you won't be able to change your viewpoint. Be sure you ca
 Each row of the panel is a different command. The commands at the top of the panel with two different names are typically analog inputs that can have a range of output values. For example, the THR + and THR - inputs correspond to the full up and full down inputs of the vernier throttle control (round knob). To assign the input to an analog control (like a joystick axis) you would use this procedure:
 
 1. Press (with your mouse or VR finger) the left-most square button. The button should illuminate and display the word "listen".
-2. Move the joystick in the direction for that command until legend on the button changes (e.g. "axis 1 -").
+2. Move the joystick in the direction for that command until the legend on the button changes (e.g. "axis 1 -").
 3. Press the button again to lock that setting.
 4. Repeat steps 1-3 for the right-most square button.
 5. If your chosen input device was already assigned to an input, it will clear the previous assignment and the corresponding button will illuminate to remind  you that it should get a different assignment.
