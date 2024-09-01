@@ -53,7 +53,7 @@ With only RATE MODE ON, any rotational motion of the ship can be stopped simply 
 
 
 ## HOVR (Hover) MODE
-Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown the two green diamond "bugs" on the cross-pointer display:
+Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown by the two green diamond "bugs" on the cross-pointer display:
 
 ![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/demo/hspd_stablerate.png){: width="200" }
 
