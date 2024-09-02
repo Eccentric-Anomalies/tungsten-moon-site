@@ -20,6 +20,24 @@ usemathjax: true
 {:toc}
 </details>
 
+### There is no explanation of what I am doing. No menu. No settings. What is the point of the game?
+Tungsten Moon is first and foremost a spaceflight simulator. Not the Star Wars sort of simulator, with guns and controls that make it act like an airplane. The first point of the game is to figure out how to fly the ship. There are guides on Steam and at the website (https://tungstenmoon.com), but the Sky Dart is pretty simple and you can control everything with just a mouse.
+
+### I figured out how to fly the Sky Dart. What next?
+Congratulations! Flying the Sky Dart is pretty hard. The next thing you can learn to do is fly the Sky Dart over greater distances and even into orbit. There are 20 landing pads scattered across the moon and a panel on the Sky Dart that keeps track of how many you have landed on. Can you find them all? The final game will have more complicated goals to complete in order to progress and survive, but for the Demo we've kept it pretty simple.
+
+### When I push the throttle forward not much happens, but eventually I start going up, instead of forward. How do I go forward?
+Like all *real* lunar and planetary landers, your main engine points *down*, so your reaction acceleration is *up*. Use the joystick on the right to tip the spacecraft in the direction you want to go, then apply the throttle to move in that direction. There are also some pretty nifty autopilot modes that can help.
+
+### When I use the throttle to move forward, I wound up about 10 km in the sky and never came down. That can't be right, can it? Is gravity only at the surface?
+Gravity follows an inverse-square law. If you fly 30 km above the surface of the moon, which has a 300 km radius, the gravity is only reduced by 19%. Unless you have launched yourself into orbit, or an escape trajectory, you probably will come down again. Pro-tip: for local flying, avoid getting above 2 km altitude. Judicious use of the throttle is called for.
+
+### How high do I have to go to get into orbit?
+Since there is no air on the Tungsten Moon, there is no need to get high at all. You can enter orbit at any altitude, as long as you fly fast enough and parallel to the surface of the moon. If you are below 5 km or so, you do run the risk of colliding with mountains, however. Once you reach orbit you can turn off your engine and coast around the moon indefinitely. Each orbit takes about 45 minutes. It's pretty.
+
+### Every time I go to land, I end up starting over. What happened?
+You landed too fast, crashed and died. Your speed at landing should generally be at or below 1 m/s vertically *and* horizontally or you run the risk of ripping your landing gear off (this kills the pilot).
+
 ### How do I know if my computer will run Tungsten Moon?
 Most gaming computers with 4 GB of dedicated video RAM and a discrete (plug in card) graphics processor (GPU) made by Nvidia or AMD will be fine. To be sure, install the free Tungsten Moon Demo and see how it works. Press Ctrl-Shift-H (in that order) to display the FPS on the screen. A FPS of 60 or better is excellent. We do not recommend playing Tungsten Moon if your frame rate is consistently lower than 60 FPS.
 
