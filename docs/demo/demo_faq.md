@@ -32,6 +32,12 @@ Like all *real* lunar and planetary landers, your main engine points *down*, so 
 ### When I use the throttle to move forward, I wound up about 10 km in the sky and never came down. That can't be right, can it? Is gravity only at the surface?
 Gravity follows an inverse-square law. If you fly 30 km above the surface of the moon, which has a 300 km radius, the gravity is only reduced by 19%. Unless you have launched yourself into orbit, or an escape trajectory, you probably will come down again. Pro-tip: for local flying, avoid getting above 2 km altitude. Judicious use of the throttle is called for.
 
+### The instructions say that the ALT CTRL button will make the joystick left-right movement produce a "yawing" movement. What is yaw?
+[Yawing movement in an airplane](https://howthingsfly.si.edu/flight-dynamics/roll-pitch-and-yaw) or boat is what a rudder does. It is rotation around a (local to the spaceship) vertical axis.
+
+### What kind of spaceship am I in? Is this like a Star Wars spaceship?
+The Tungsten Moon Sky Dart is similar to the [Apollo Lunar Module](https://en.wikipedia.org/wiki/Apollo_Lunar_Module). There is big rocket that points down, controlled by the throttle, and a bunch of smaller rockets around the outside that make the ship tip or spin by using the joystick.
+
 ### How high do I have to go to get into orbit?
 Since there is no air on the Tungsten Moon, there is no need to get high at all. You can enter orbit at any altitude, as long as you fly fast enough and parallel to the surface of the moon. If you are below 5 km or so, you do run the risk of colliding with mountains, however. Once you reach orbit you can turn off your engine and coast around the moon indefinitely. Each orbit takes about 45 minutes. It's pretty.
 
