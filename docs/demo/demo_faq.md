@@ -71,7 +71,7 @@ $v \approx 40 \sqrt{D}$
 {: style="text-align: center;"}
 
 *v*
-: Speed (IMU) in m/s
+: Speed in m/s
 
 *D*
 : Horizontal distance to fly, in km
