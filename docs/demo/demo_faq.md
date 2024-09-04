@@ -20,6 +20,9 @@ usemathjax: true
 {:toc}
 </details>
 
+### I can not start game. It brings me back to steam page (crashes without explanation).
+This is common if the computer system and/or GPU are not powerful enough to run Tungsten Moon, or if the game files are corrupted. If you are confident your system is powerful enough, then we recommend [verifying the integrity of the game files](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB) in Steam. If this does not help, we would like to work with you to figure out what is happening. Please contact us at: [support@eccentricanomalies.com](mailto:support@eccentricanomalies.com)
+
 ### There is no explanation of what I am doing. No menu. No settings. What is the point of the game?
 Tungsten Moon is first and foremost a spaceflight simulator. Not the Star Wars sort of simulator, with guns and controls that make it act like an airplane. The first point of the game is to figure out how to fly the ship. There are guides on Steam and at the website (https://tungstenmoon.com), but the Sky Dart is pretty simple and you can control everything with just a mouse.
 
