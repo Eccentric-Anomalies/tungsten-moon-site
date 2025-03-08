@@ -9,7 +9,7 @@ Whether you're stuck, wondering what the point is, or just want to make a sugges
 
 We built this game because we love playing it and hope you to love it too! If you have any ideas that you think would make this game better, please tell us. 
 
-Before reaching out with a question, see if your topic is already addressed in the [flight manual]({% link docs/demo/demo_intro.md %}) or [FAQ]({% link docs/demo/demo_faq.md %}).
+Before reaching out with a question, see if your topic is already addressed in the [flight manual]({% link docs/manual/intro.md %}) or [FAQ]({% link docs/manual/faq.md %}).
 
 ## E-Mail
 For personalized support, please send an email to [support@eccentricanomalies.com](mailto:support@eccentricanomalies.com). Please let us know whether you are using the demo or full (early access) version of Tungsten Moon. Someone from the team will respond as soon as possible.

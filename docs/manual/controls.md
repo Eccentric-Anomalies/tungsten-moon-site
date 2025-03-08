@@ -84,7 +84,7 @@ Tungsten Moon supports traditional PC joysticks quite well, but there are a few 
 ## Other Equipment
 
 ### Inertial Measurement Unit (IMU)
-We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link docs/demo/demo_howtofly.md %}#basic-instruments) section, but without explaining anything else about it.
+We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link docs/manual/howtofly.md %}#basic-instruments) section, but without explaining anything else about it.
 
 ![imu and artificial horizon panel](/assets/images/manual/imu_panel.png){: width="200" }
 
