@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spawn Points
-parent: Tungsten Moon Demo
+parent: Tungsten Moon Manual
 nav_order: 2
 ---
 
@@ -22,7 +22,7 @@ nav_order: 2
 
 ## Spawn Points
 
-Of the twenty landing pads in Tungsten Moon Demo, five are **base** pads, which are spawn points that you can return to at any time. The respawn control panel is on the right-hand side of the Sky Dart cockpit. Base pads are numbered 0 through 4, like this: 
+Of the twenty landing pads in Tungsten Moon, five are **base** pads, which are spawn points that you can return to at any time. The respawn control panel is on the right-hand side of the Sky Dart cockpit. Base pads are numbered 0 through 4, like this: 
 
 * 0:0
 * 1:0

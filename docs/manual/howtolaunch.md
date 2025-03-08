@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Run Tungsten Moon Demo
-parent: Tungsten Moon Demo
+parent: Tungsten Moon Manual
 nav_order: 1
 ---
 

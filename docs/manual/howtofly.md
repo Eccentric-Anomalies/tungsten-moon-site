@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Fly the Sky Dart
-parent: Tungsten Moon Demo
+parent: Tungsten Moon Manual
 nav_order: 3
 usemathjax: true
 ---

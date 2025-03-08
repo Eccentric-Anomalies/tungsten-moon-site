@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sky Dart Autopilot Modes
-parent: Tungsten Moon Demo
+parent: Tungsten Moon Manual
 nav_order: 4
 usemathjax: true
 ---

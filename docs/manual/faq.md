@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Frequently Asked Questions (FAQ)
-parent: Tungsten Moon Demo
+parent: Tungsten Moon Manual
 nav_order: 6
 usemathjax: true
 ---
