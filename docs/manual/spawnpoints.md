@@ -45,7 +45,7 @@ On the surface of each pad is the direction (compass heading) and distance to a 
 
 You can keep track of your progress and respawn at one of the base pads using the respawn control panel:
 
-![Respawn control panel](/assets/images/demo/spawnpanel.png)
+![Respawn control panel](/assets/images/manual/spawnpanel.png)
 
 * Press **NEXT BASE** to toggle through the different base pads (BASE ID).
 * Each base pad will show you how many pads (TASKS) you have visited and the total available.

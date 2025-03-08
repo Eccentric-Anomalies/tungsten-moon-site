@@ -23,7 +23,7 @@ All the Sky Dart user inputs (i.e. buttons, joysticks, etc.) are controllable in
 </details>
  
 ## Default Keyboard Map
-![AMC Sky Dart default keyboard map](/assets/images/demo/keyboard-map.svg)
+![AMC Sky Dart default keyboard map](/assets/images/manual/keyboard-map.svg)
 
 {: .note }
 The SHIFT key toggles the ALT CTRL button in the cockpit:
@@ -40,18 +40,18 @@ ALT CTRL mode changes the behavior of some inputs:
 Tungsten Moon supports many video game controllers in a generic way:
 
 ### XBOX
-![AMC Sky Dart XBOX controller map](/assets/images/demo/controller-map.svg)
+![AMC Sky Dart XBOX controller map](/assets/images/manual/controller-map.svg)
 
 ### PlayStation
-![AMC Sky Dart PS controller map](/assets/images/demo/controller-ps-map.svg)
+![AMC Sky Dart PS controller map](/assets/images/manual/controller-ps-map.svg)
 
 ### Steam Deck
-![AMC Sky Dart Steam Deck controller map](/assets/images/demo/controller-steamdeck-map.svg)
+![AMC Sky Dart Steam Deck controller map](/assets/images/manual/controller-steamdeck-map.svg)
 
 ## Default VR Controller Inputs
 The default map should work for most OpenXR-compatible VR hand controllers.
 
-![AMC Sky Dart Steam Deck controller map](/assets/images/demo/vr-controller-map.svg)
+![AMC Sky Dart Steam Deck controller map](/assets/images/manual/vr-controller-map.svg)
 
 {: .note }
 The default VR controller input assignments may not be modified.
@@ -73,7 +73,7 @@ By default, tapping the Steam Deck touchscreen with your fingertip will emulate 
 The Steam Deck is very customizable. For example, you can configure the trackpad to emulate a mouse with the RIGHT mouse button held down for very responsive camera view panning.
 
 ## Configuring PC Flight Sim Hardware
-Tungsten Moon Demo supports traditional PC joysticks quite well, but there are a few things to be aware of:
+Tungsten Moon supports traditional PC joysticks quite well, but there are a few things to be aware of:
 
 * If you are using a conventional PC joystick (typically used with flight simulators) with a throttle control, use the input mapping panel (in the cockpit) to map the **THR A+** and **THR A-** to the throttle's full and cut positions, respectively.
 * We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
@@ -86,7 +86,7 @@ Tungsten Moon Demo supports traditional PC joysticks quite well, but there are a
 ### Inertial Measurement Unit (IMU)
 We introduced the Inertial Measurement Unit or IMU in the [Basic Instruments]({% link docs/demo/demo_howtofly.md %}#basic-instruments) section, but without explaining anything else about it.
 
-![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="200" }
+![imu and artificial horizon panel](/assets/images/manual/imu_panel.png){: width="200" }
 
 The IMU consists of accelerometers and gyroscopes that measure the acceleration vector of the Sky Dart, and any rotational velocity. On the surface, the IMU measures the rotation of the moon itself, and uses that to set the heading of the artificial horizon ball. The IMU uses the accelerometers to determine the direction of local vertical, and uses that to set the pitch and roll of the artificial horizon ball.
 
@@ -124,7 +124,7 @@ When you land, the IMU will automatically reset to show the correct heading and 
 ## Sky Dart Nameplate and Accessory Panel
 The accessory panel is on the left side of the Sky Dart cockpit:
 
-![accessory panel](/assets/images/demo/accessory_panel.png)
+![accessory panel](/assets/images/manual/accessory_panel.png)
 
 ### Landing Light
 The button with a down-pointing headlight symbol toggles the exterior landing light. The light is aimed downward and a little forward, with a maximum range of 100 m. This is very useful for landing in complete darkness, and especially when no landing pad is nearby.
@@ -140,7 +140,7 @@ Days are ten hours long on Tungsten Moon. When the day count changes, the clock 
 ## Reassigning Control Inputs
 The input assignment panel is on the right side of the Sky Dart cockpit:
 
-![input assignment panel](/assets/images/demo/assignment_panel.png){: width="400" }
+![input assignment panel](/assets/images/manual/assignment_panel.png){: width="400" }
 
 
 Use the input assignment panel to change the default buttons and joystick assignments on a game controller, or to assign the inputs to a PC joystick or computer keyboard.

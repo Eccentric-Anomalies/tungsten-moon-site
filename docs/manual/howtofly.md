@@ -23,7 +23,7 @@ Don't worry. It's only rocket science!
 
 ## The Sky Dart
 
-![AMC Sky Dart utility/logistics spacecraft](/assets/images/demo/skydart.svg)
+![AMC Sky Dart utility/logistics spacecraft](/assets/images/manual/skydart.svg)
 *The Sky Dart*
 
 ### Specifications
@@ -72,19 +72,19 @@ The throttle control is a large T-handle control on the left side of the cockpit
 {: .note }
 As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.
 
-![Sky Dart hovering with equal and opposite thrust and weight](/assets/images/demo/skydart_hover.svg)
+![Sky Dart hovering with equal and opposite thrust and weight](/assets/images/manual/skydart_hover.svg)
 *Sky Dart hovers (or maintains constant acceleration) with equal and opposite thrust and weight*
 
 ### Joystick
 
 Using only the throttle, you can go up (ascend) or down (descend), but there is no way to control your sideways motion. For this, use the joystick. Moving the joystick does not *directly* move the ship sideways. Instead, it operates small rockets (called *attitude control thrusters*) on the side of the ship that make the ship rotate. For example, if you push the stick forward, it will make the ship rotate (or *pitch*) forward.
 
-![Sky Dart pitching forward using attitude control thrusters](/assets/images/demo/skydart_pitchforward.svg)
+![Sky Dart pitching forward using attitude control thrusters](/assets/images/manual/skydart_pitchforward.svg)
 *Sky Dart pitches forward using attitude control thrusters*
 
 When the ship is leaning forward, the main engine thrust and the weight are not balanced. Some of the thrust force is directed in the forward direction. A physicist would say that *the thrust vector now has a forward component*. The forward part of the thrust, though small, will make the ship accelerate in the forward direction. Its forward speed increases.
 
-![Sky Dart moving forward after pitching forward](/assets/images/demo/skydart_moveforward.svg)
+![Sky Dart moving forward after pitching forward](/assets/images/manual/skydart_moveforward.svg)
 *Sky Dart accelerates forward because its thrust direction is partly forward*
 
 Because the ship is leaning, the *vertical component* of the main engine thrust isn't as large as it used to be. If the ship was hovering before, it will begin to accelerate downward at the same time that it accelerates forward. Because of this, you have to increase the main thrust slightly to hold your hovering altitude while accelerating forward.
@@ -96,7 +96,7 @@ Once your ship has the pitch or roll angle you want, you can let the joystick re
 
 All of these ideas come together when you try to fly from one place to another, and land safely:
 
-![Sky Dart moving from point A to point B](/assets/images/demo/skydart_pointatob.svg)
+![Sky Dart moving from point A to point B](/assets/images/manual/skydart_pointatob.svg)
 
 ### Basic Instruments
 
@@ -104,11 +104,11 @@ While you are flying, you can judge your altitude, orientation, and velocity by 
 
 The "cross pointer" display also shows your horizontal speed as a sideways (left to right) and forward (and backward) component using the two orange needles. 
 
-![radar panel](/assets/images/demo/radarpanel.png){: width="150" }
+![radar panel](/assets/images/manual/radarpanel.png){: width="150" }
 
 When you are in mountainous terrain, or at night, it's hard to tell exactly how much your ship is tipped, relative to the horizon. Use the *artificial horizon* display to judge your pitch or banking angle.
 
-![imu and artificial horizon panel](/assets/images/demo/imu_panel.png){: width="150" }
+![imu and artificial horizon panel](/assets/images/manual/imu_panel.png){: width="150" }
 
 ### How to Yaw or Spin Left or Right
 

@@ -24,7 +24,7 @@ For the sophisticated space pilot.
 ## The Autopilot Control Panel
 Like many small aircraft, the Sky Dart has a basic autopilot control panel just below the pilot's primary window.
 
-![AMC Sky Dart autopilot control panel](/assets/images/demo/autopilot_panel.png)
+![AMC Sky Dart autopilot control panel](/assets/images/manual/autopilot_panel.png)
 *The Sky Dart autopilot control panel*
 
 ### Autopilot Functions In A Nutshell
@@ -43,19 +43,19 @@ The following sections cover each mode in more detail.
 When the Sky Dart is powered up, the autopilot has RATE MODE active by default. With RATE MODE off, the joystick directly operates the attitude control thrusters. The ship is very difficult to control RATE MODE off, and the only time it should be deactivated is if there is a fault in the autopilot.
 
 ### RATE MODE ON
-![AMC Sky Dart autopilot RATE MODE ON](/assets/images/demo/skydart_ratemode.svg)
+![AMC Sky Dart autopilot RATE MODE ON](/assets/images/manual/skydart_ratemode.svg)
 
 {: .note }
 With only RATE MODE ON, any rotational motion of the ship can be stopped simply by letting go of the joystick.
 
 ### RATE MODE OFF
-![AMC Sky Dart autopilot RATE MODE ON](/assets/images/demo/skydart_noratemode.svg)
+![AMC Sky Dart autopilot RATE MODE ON](/assets/images/manual/skydart_noratemode.svg)
 
 
 ## HOVR (Hover) MODE
 Hover mode commands the joystick and throttle to zero out any *acceleration* of the ship, while maintaining the current vertical and horizontal *rates* or *speed*. The vertical speed is shown in the **VS** seven-segment display on the autopilot panel, while the horizontal speeds are shown by the two green diamond "bugs" on the cross-pointer display:
 
-![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/demo/hspd_stablerate.png){: width="200" }
+![AMC Sky Dart autopilot cross-pointer horizontal speed bugs](/assets/images/manual/hspd_stablerate.png){: width="200" }
 
 {: .note }
 Vertical speed and altitude in HOVR mode are always computed relative to the local terrain and are subject to the maximum range of the radar system (2000 m) and a bank or pitch angle of 45 degrees.
@@ -63,7 +63,7 @@ Vertical speed and altitude in HOVR mode are always computed relative to the loc
 ### Typical Transition from HOVR OFF to HOVR ON
 The following diagram shows how the ship's dynamic state changes when HOVR mode is engaged.
 
-![AMC Sky Dart autopilot HOVR MODE ON](/assets/images/demo/skydart_hovrmode.svg)
+![AMC Sky Dart autopilot HOVR MODE ON](/assets/images/manual/skydart_hovrmode.svg)
 
 Engaging HOVR mode *captures* the current vertical and horizontal speeds of the ship, then tries to maintain them. Once engaged, you can change the captured speeds using the round vernier throttle knob and the joystick.
 
@@ -72,7 +72,7 @@ While HOVR MODE is ON, use the vernier throttle to adjust the vertical speed. If
 
 The following graphic shows an example of using HOVR mode to slow descent and hold a true hover at 308 m above the surface.
 
-![AMC Sky Dart autopilot HOVR MODE slowing descent](/assets/images/demo/skydart_hovrzerorate.svg)
+![AMC Sky Dart autopilot HOVR MODE slowing descent](/assets/images/manual/skydart_hovrzerorate.svg)
 
 ## HSPD (Horizontal Speed) MODE
 Engaging HOVR mode automatically engages HSPD mode and captures your current horizontal speed. When HSPD is engaged, disengage it again by pressing the **HSPD MODE** button; HOVR mode will not be affected. Regardless of the HSPD mode, disengaging HOVR will force HSPD OFF. In other words, HSPD requires the vertical speed to be controlled by autopilot at all times.
@@ -81,7 +81,7 @@ While HSPD mode is ON, the joystick moves the horizontal speed setpoint, shown b
 
 The following graphic shows an example of using HSPD mode to slow the horizontal speed from 8 $\frac m s$ to 4 $\frac m s$:
 
-![AMC Sky Dart autopilot HSPD MODE changing forward speed](/assets/images/demo/skydart_hspdchange.svg)
+![AMC Sky Dart autopilot HSPD MODE changing forward speed](/assets/images/manual/skydart_hspdchange.svg)
 
 {: .warning }
 Although there is no speed limit for horizontal flight in HSPD mode, flying over rough terrain at high speeds will cause the autopilot system to disengage without warning if it is unable to compensate for rapidly changing height above ground level.
