@@ -56,8 +56,8 @@ Most gaming computers with 4 GB of dedicated video RAM and a discrete (plug in c
 ### Should I use Steam to download and play Tungsten Moon Demo?
 Although the demo will always be available on from the [Tungsten Moon Demo releases Github page](https://github.com/Eccentric-Anomalies/Tungsten-Moon-Demo-Releases/releases), we recommend [Steam](https://store.steampowered.com/app/3104900/Tungsten_Moon/) for its easy access to beta versions and its automatic version updating. If you play using a VR headset, then Steam offers a seamless experience for selecting between the VR and non-VR versions of the game.
 
-### How do I use my OpenXR headset (e.g. Quest 3) with Tungsten Moon Demo?
-We recommend running Tungsten Moon Demo from Steam. Configure your headset as an OpenXR device and use SteamVR (free) on the Steam platform. Launch Tungsten Moon Demo from your library and select the VR option from the popup menu.
+### How do I use my OpenXR headset (e.g. Quest 3) with Tungsten Moon?
+We recommend running Tungsten Moon from Steam. Configure your headset as an OpenXR device and use SteamVR (free) on the Steam platform. Launch Tungsten Moon (or the Demo) from your library and select the VR option from the popup menu.
 
 ### Am I limited to flying to or from the landing pads in Tungsten Moon?
 Some landing pads are spawn points for the game, but you are free to fly anywhere on the surface of the moon.
@@ -75,7 +75,7 @@ Yes! The Sky Dart spacecraft, when fully fueled, is capable of reaching a stable
 Orbital velocity near the surface of the moon is approximately 700 m/s. The goal is to reach that speed, while flying near the surface (between 5-10 km altitude), with no vertical velocity. As you increase your speed and approach 700 m/s, watch the periapsis and apoapsis values (on the IMU panel) carefully. Kill your thrust the moment you achieve orbit, as it's very easy to enter a hyperbolic escape trajectory by accident. An ideal, approximately circular orbit is achieved when both values are in the range of 5-10. To do this, you need to accelerate with the Sky Dart at a very steep angle, almost horizontal to the surface. Monitor your altitude on the IMU or radar carefully, to avoid ascending too high or too quickly, and to avoid crashing on the surface.
 
 ### Why do I run out of fuel when flying long distances? You said I could go anywhere!
-If you are flying long distances by moving sideways while hovering (for example, by using “hover mode”), then you are not making the most efficient use of your propulsion system. The most efficient way of flying *anywhere* on the moon is to use maximum thrust to launch into either a parabolic trajectory (shorter trips) or orbit (longer distances). While orbital flight can literally take you anywhere on the surface, the Sky Dart in Tungsten Moon Demo is not equipped with navigation equipment needed to pinpoint a specific landing site.
+If you are flying long distances by moving sideways while hovering (for example, by using “hover mode”), then you are not making the most efficient use of your propulsion system. The most efficient way of flying *anywhere* on the moon is to use maximum thrust to launch into either a parabolic trajectory (shorter trips) or orbit (longer distances). While orbital flight can literally take you anywhere on the surface, the Sky Dart is not (yet) equipped with navigation equipment needed to pinpoint a specific landing site.
 
 You can plan parabolic flights with fair accuracy by using this physics projectile distance formula:
 
