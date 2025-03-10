@@ -24,6 +24,7 @@ Don't worry. It's only rocket science!
 ## The Sky Dart
 
 ![AMC Sky Dart utility/logistics spacecraft](/assets/images/manual/skydart.svg)
+
 *The Sky Dart*
 
 ### Specifications
@@ -73,6 +74,7 @@ The throttle control is a large T-handle control on the left side of the cockpit
 As you operate the rocket engine, fuel is consumed and the weight of the ship decreases. Hovering under manual control requires constant vigilance.
 
 ![Sky Dart hovering with equal and opposite thrust and weight](/assets/images/manual/skydart_hover.svg)
+
 *Sky Dart hovers (or maintains constant acceleration) with equal and opposite thrust and weight*
 
 ### Joystick
@@ -80,11 +82,13 @@ As you operate the rocket engine, fuel is consumed and the weight of the ship de
 Using only the throttle, you can go up (ascend) or down (descend), but there is no way to control your sideways motion. For this, use the joystick. Moving the joystick does not *directly* move the ship sideways. Instead, it operates small rockets (called *attitude control thrusters*) on the side of the ship that make the ship rotate. For example, if you push the stick forward, it will make the ship rotate (or *pitch*) forward.
 
 ![Sky Dart pitching forward using attitude control thrusters](/assets/images/manual/skydart_pitchforward.svg)
+
 *Sky Dart pitches forward using attitude control thrusters*
 
 When the ship is leaning forward, the main engine thrust and the weight are not balanced. Some of the thrust force is directed in the forward direction. A physicist would say that *the thrust vector now has a forward component*. The forward part of the thrust, though small, will make the ship accelerate in the forward direction. Its forward speed increases.
 
 ![Sky Dart moving forward after pitching forward](/assets/images/manual/skydart_moveforward.svg)
+
 *Sky Dart accelerates forward because its thrust direction is partly forward*
 
 Because the ship is leaning, the *vertical component* of the main engine thrust isn't as large as it used to be. If the ship was hovering before, it will begin to accelerate downward at the same time that it accelerates forward. Because of this, you have to increase the main thrust slightly to hold your hovering altitude while accelerating forward.
