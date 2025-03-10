@@ -75,9 +75,9 @@ The Steam Deck is very customizable. For example, you can configure the trackpad
 ## Configuring PC Flight Sim Hardware
 Tungsten Moon supports traditional PC joysticks quite well, but there are a few things to be aware of:
 
-* If you are using a conventional PC joystick (typically used with flight simulators) with a throttle control, use the input mapping panel (in the cockpit) to map the **THR A+** and **THR A-** to the throttle's full and cut positions, respectively.
-* We recommend assigning **THR +** and **THR -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
-* Do **NOT** map the **THR MAX**, **THR MIN**, **THR +**, or **THR -** inputs to a PC throttle lever. 
+* If you are using a conventional PC joystick (typically used with flight simulators) with a throttle control, use the input mapping panel (in the cockpit) to map the **JOYSTICK THRUST +** and **JOYSTICK THRUST -** to the throttle's full and cut positions, respectively.
+* We recommend assigning **THRUST VERNIER +** and **THRUST VERNIER -** to a pair of buttons or an up/down toggle on your PC joystick. This input is important for controlling the vernier throttle AND sets the vertical ascent or descent rate when you are in autopilot hover mode.
+* Do **NOT** map the **MAXIMUM THRUST**, **MINIMUM THRUST**, **THRUST VERNIER +**, or **THRUST VERNIER -** inputs to a PC throttle lever. 
 * If you configure a PC joystick, we recommend mapping **all** the available inputs to buttons or controls on the device. We do not recommend switching back and forth between a joystick and a game controller on the same computer. Choose one.
 * Unlike your game progress, joystick or controller configurations are not shared between different machines using the same Steam account.
 
@@ -138,19 +138,19 @@ The chronometer is a clock that keeps track of your time on board the Sky Dart. 
 Days are ten hours long on Tungsten Moon. When the day count changes, the clock resets to midnight.
 
 ## Reassigning Control Inputs
-The input assignment panel is on the right side of the Sky Dart cockpit:
+Use the input assignment panel from the game menu (press the [ESC] key, controller menu button or left VR controller B/Y button while in the game):
 
-![input assignment panel](/assets/images/manual/assignment_panel.png){: width="400" }
+![input assignment panel](/assets/images/manual/assignment_panel.png){: width="800" }
 
 
 Use the input assignment panel to change the default buttons and joystick assignments on a game controller, or to assign the inputs to a PC joystick or computer keyboard.
 
-Before you can use the panel, turn it on by pressing the power button in the upper-left corner of the panel. 
+To use the panel, press the INPUTS button at the top of the game menu.
 
 {: .note }
-Once the panel is on, you won't be able to change your viewpoint. Be sure you can clearly see the whole panel before turning it on.
+Once the panel is active, you won't be able to change your viewpoint. Be sure you can clearly see the whole game menu panel before turning seleting INPUTS.
 
-Each row of the panel is a different command. The commands at the top of the panel with two different names are typically analog inputs that can have a range of output values. For example, the THR + and THR - inputs correspond to the full up and full down inputs of the vernier throttle control (round knob). To assign the input to an analog control (like a joystick axis) you would use this procedure:
+Each row of the panel is a different command. The commands at the top of the panel with two different names are typically analog inputs that can have a range of output values. For example, the THRUST VERNIER + and THRUST VERNIER - inputs correspond to the full up and full down inputs of the vernier throttle control (round knob). To assign the input to an analog control (like a joystick axis) you would use this procedure:
 
 1. Press (with your mouse or VR finger) the left-most square button. The button should illuminate and display the word "listen".
 2. Move the joystick in the direction for that command until the legend on the button changes (e.g. "axis 1 -").
@@ -159,9 +159,9 @@ Each row of the panel is a different command. The commands at the top of the pan
 5. If your chosen input device was already assigned to an input, it will clear the previous assignment and the corresponding button will illuminate to remind  you that it should get a different assignment.
 6. Continue with any other inputs until they are all assigned. 
 
-Once the assignments are complete, the KEEP CHANGES and UNDO CHANGES buttons should be illuminated. If you are satisfied with the changes, press KEEP CHANGES, then turn off the panel using its power button.
+Once the assignments are complete, the PROCEED and CANCEL buttons should be illuminated. If you are satisfied with the changes, press PROCEED, then return to the main game menu by pressing GAME.
 
-If, instead, you want to return to the default input configuration, just press LOAD DEFAULTS, followed by KEEP CHANGES.
+If, instead, you want to return to the default input configuration, just press LOAD DEFAULTS, followed by PROCEED.
 
 {: .note }
 The square buttons are specifically for assignment to a game controller joystick, analog input, or button. The rectangular buttons are for assignment to keyboard buttons. Up to two different keyboard buttons and one game controller input may be assigned to each input.
