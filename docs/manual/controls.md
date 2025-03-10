@@ -31,9 +31,9 @@ The SHIFT key toggles the ALT CTRL button in the cockpit:
 ### ALT CTRL Mode
 ALT CTRL mode changes the behavior of some inputs:
 
-|  | ALT CTRL ON | ALT CTRL OFF |
-|:--:|:--:|:--:|
-| **CAMERA INPUTS** | pans L-R and U-D  | moves L-R and F-B  |
+|                     |    ALT CTRL ON    |    ALT CTRL OFF    |
+| :-----------------: | :---------------: | :----------------: |
+|  **CAMERA INPUTS**  | pans L-R and U-D  | moves L-R and F-B  |
 | **JOYSTICK INPUTS** | left-right is YAW | left-right is ROLL |
 
 ## Default Game Controller Map (and Steam Deck)
@@ -100,14 +100,14 @@ The IMU is always computing the *orbital apsides* of the Sky Dart, assuming the 
 
 The point on the orbital ellipse that is farthest from the center of the moon is the apoapsis (abbreviated AA). The point closest to the center is the periapsis (PA). Depending on what the Sky Dart is doing (ascending or descending), combinations of AA and PA mean different things:
 
-| Type of Orbit | AA (apoapsis) | PA (periapsis) |
-|:--|:--|:--|
-| stable elliptical | highest altitude  | lowest altitude  |
-| elliptical (crash expected) | highest altitude  | - -  |
-| Circular |  same as PA | same as AA |
-| Hyperbolic (escape) | - - | lowest altitude |
-| Hyperbolic (escape if altitude increasing) | - - | - - |
-| Hyperbolic (crash expected if altitude decreasing) | - - | - - |
+| Type of Orbit                                      | AA (apoapsis)    | PA (periapsis)  |
+| :------------------------------------------------- | :--------------- | :-------------- |
+| stable elliptical                                  | highest altitude | lowest altitude |
+| elliptical (crash expected)                        | highest altitude | - -             |
+| Circular                                           | same as PA       | same as AA      |
+| Hyperbolic (escape)                                | - -              | lowest altitude |
+| Hyperbolic (escape if altitude increasing)         | - -              | - -             |
+| Hyperbolic (crash expected if altitude decreasing) | - -              | - -             |
 
 An *escape* orbit will bring your spacecraft infinitely far from the moon after an infinite number of hours.
 
@@ -148,7 +148,7 @@ Use the input assignment panel to change the default buttons and joystick assign
 To use the panel, press the INPUTS button at the top of the game menu.
 
 {: .note }
-Once the panel is active, you won't be able to change your viewpoint. Be sure you can clearly see the whole game menu panel before turning seleting INPUTS.
+Once the panel is active, you won't be able to change your viewpoint. Be sure you can clearly see the whole game menu panel before pressing INPUTS.
 
 Each row of the panel is a different command. The commands at the top of the panel with two different names are typically analog inputs that can have a range of output values. For example, the THRUST VERNIER + and THRUST VERNIER - inputs correspond to the full up and full down inputs of the vernier throttle control (round knob). To assign the input to an analog control (like a joystick axis) you would use this procedure:
 
