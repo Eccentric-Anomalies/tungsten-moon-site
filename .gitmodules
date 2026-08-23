@@ -1,0 +1,3 @@
+[submodule "docs/Skydart-Manual"]
+	path = docs/Skydart-Manual
+	url = https://github.com/Eccentric-Anomalies/Skydart-Manual.git
