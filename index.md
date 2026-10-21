@@ -5,6 +5,11 @@ nav_order: 1
 usemathjax: true
 ---
 ![Tungsten Moon landscape](/assets/images/banner.jpeg)
+
+[Install The Demo On Steam](https://store.steampowered.com/app/3104900/Tungsten_Moon/){: .btn .btn-green }
+[Read the Flight Manual](https://tungstenmoon.com/docs/manual/intro.html){: .btn .btn-purple }
+[Contact the Developer](https://tungstenmoon.com/contact/){: .btn .btn-yellow }
+
 # TUNGSTEN MOON
 
 In 1988, astronomers found a wormhole that led to a remote star with a single gas giant planet. Orbiting the planet was a moon of solid metal: a Tungsten Moon.
@@ -15,9 +20,6 @@ Survival is the most important problem. Learn to fly the Sky Dart spacecraft wit
 
 
 ## Demo Version
-
-[Install The Demo On Steam](https://store.steampowered.com/app/3104900/Tungsten_Moon/){: .btn .btn-green }
-[Read the Flight Manual](https://tungstenmoon.com/docs/manual/intro.html){: .btn .btn-purple }
 
 The [Tungsten Moon Demo]({% link docs/manual/intro.md %}) is available for Windows and Linux and support both desktop and VR with keyboard or XBOX/PS game controller inputs in either mode. You can also set up PC analog joysticks or other flight sim hardware from inside the game. VR hand controllers support grabbing handles and pushing buttons (Vive/Quest tested).
 
