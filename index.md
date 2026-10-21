@@ -8,7 +8,7 @@ usemathjax: true
 
 [Install The Demo On Steam](https://store.steampowered.com/app/3104900/Tungsten_Moon/){: .btn .btn-green }
 [Read the Flight Manual](https://tungstenmoon.com/docs/manual/intro.html){: .btn .btn-purple }
-[Contact the Developer](https://tungstenmoon.com/contact/){: .btn .btn-yellow }
+[Contact the Developer](/contact/){: .btn .btn-blue }
 
 # TUNGSTEN MOON
 
