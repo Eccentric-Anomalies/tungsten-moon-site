@@ -1,0 +1,38 @@
+.sf-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 32rem;
+}
+
+.sf-form input,
+.sf-form textarea {
+    width: 100%;
+    padding: 0.65rem 0.75rem;
+    font: inherit;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+.sf-form input:focus,
+.sf-form textarea:focus {
+    outline: 2px solid #7c3aed;
+    outline-offset: 1px;
+    border-color: transparent;
+}
+
+.sf-form button {
+    align-self: flex-start;
+    padding: 0.65rem 1.25rem;
+    font: inherit;
+    font-weight: 600;
+    color: #fff;
+    background: #7c3aed;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sf-form button:hover {
+    background: #6d28d9;
+}
