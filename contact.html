@@ -1,0 +1,27 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+---
+
+<h1>Contact The Tungsten Moon Developer</h1>
+
+<form action="https://api.staticforms.dev/submit" method="POST">
+    <input type="hidden" name="apiKey" value="sf_9daf9e63820a61ed9e308eb9" />
+    <input type="hidden" name="replyTo" value="@" />
+    <input type="hidden" name="subject" value="New message from my Jekyll site" />
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <!-- Spam honeypot: bots fill this, humans never see it -->
+    <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off" />
+
+    <button type="submit">Send message</button>
+</form>
