@@ -23,6 +23,10 @@ Survival is the most important problem. Learn to fly the Sky Dart spacecraft wit
 
 The [Tungsten Moon Demo]({% link docs/manual/intro.md %}) is available for Windows and Linux and support both desktop and VR with keyboard or XBOX/PS game controller inputs in either mode. You can also set up PC analog joysticks or other flight sim hardware from inside the game. VR hand controllers support grabbing handles and pushing buttons (Vive/Quest tested).
 
+## Press Kit
+
+See the [Tungsten Moon Press Kit](https://steamkit.dev/press/tungsten-moon).
+
 # More About The Game
 
 ## The Sky Dart
